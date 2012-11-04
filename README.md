@@ -7,10 +7,8 @@ What am I doing?
 
 	My plan is to make change in my life.
 
-	Despite my current struggles, I love Computer Science with all my heart and I still have a strong thirst for learning as much as I can. 
-	Perhaps the reason I am struggling and confused is because I am simply 
-burnt out.
-	Perhaps I wasn't studying correctly. Perhaps the way I was being 
+	Despite my current struggles, I love Computer Science with all my heart and I still have a strong thirst for learning as much as I can.		Perhaps the reason I am struggling and confused is because I am simply burnt out.
+	Perhaps I wasn't studying correctly. Perhaps the way I was being
 taught was not working for me.
 
 	The bottom line is, things need to change.
