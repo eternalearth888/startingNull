@@ -25,7 +25,8 @@ Why am I doing this?
 	The problem lies in reality as well though.
 	We are taught from when we are young that failure means lazy, dumb, etc. 
 	That shouldn't be the case, but it is. 
-	If we fail in class we don't have the time to go back and try again, the class keeps going and you end up falling behind farther and farther, and we up spending more time struggling and frustrated (my situation) than we do actually being able to learn. Spending countless hours and studying, going to office hours, doing review only to end up making everything worse. 
+	If we fail in class we don't have the time to go back and try again, the class keeps going and you end up falling behind farther and farther, and we up spending more time struggling and frustrated (my situation) than we do actually being able to learn. 
+	Spending countless hours and studying, going to office hours, doing review only to end up making everything worse. 
 	If we fail a class we have to take it again. And if you have to take a class too many times one of two (or sometimes both) things happen:
 
 	1) You begin to doubt your ability (gaining other negative feelings as well) with the thing you love. Thus putting you in a vicious cycle.	
