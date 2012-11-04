@@ -5,7 +5,7 @@ Who am I?
 ****************
 What am I doing?
 
-	My plan is make change in my life.
+	My plan is to make change in my life.
 
 	Despite my current struggles, I love Computer Science with all my heart and I still have a strong thirst for learning as much as I can. 
 	Perhaps the reason I am struggling and confused is because I am simply 
@@ -22,12 +22,13 @@ Why am I doing this?
 	Starting over is not easy. Especally being in the middle of getting my degree in the thing I am struggling with. 
 
 	The difference between what I am doing here versus what I am doing in the classroom is simple:
-	I am taking it one step at a time, at my own pace.Without the pressure/anxiety of grades/school.
+	I am taking it one step at a time, at my own pace. Without the pressure/anxiety of grades/school.
 	I am giving myself the space to fail without the consequences having a profound effect on my life and pursuit in education.
 
 	The reality is, the only way to learn is to fail. To be banging your head against the wall over and over until it clicks (metaphorically speaking of course).
 	The problem lies in reality as well though.
-	We are taught from when we are young that failure means: lazy, dumb, etc. 
+	We are taught from when we are young that failure means lazy, dumb, etc. 
+	That shouldn't be the case, but it is. 
 	If we fail in class we don't have the time to go back and try again, the class keeps going and you end up falling behind farther and farther, and we up spending more time struggling and frustrated (my situation) than we do actually being able to learn. Spending countless hours and studying, going to office hours, doing review only to end up making everything worse. 
 	If we fail a class we have to take it again. And if you have to take a class too many times one of two (or sometimes both) things happen:
 
