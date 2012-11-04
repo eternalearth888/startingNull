@@ -46,7 +46,7 @@ Why am I doing this?
 ***************
 Why GitHub?
 
-	Much like an artist or a writer is able to see the progression of their work by being able to see the many past works they have created, so will GitHub and it's commit history allow me to see the progression I make as a computer scientist.
+	Much like an artist or a writer is able to see the progression of their skill and ability by being able to see the many past works they have created, so will GitHub and it's commit history allow me to see the progression I make as a computer scientist.
 ***************
 How do you plan to do this?
 
