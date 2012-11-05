@@ -1,0 +1,54 @@
+So I am already a little bit behind but with good reason.
+
+I spent most of the 3rd and 4th setting up github and becoming familiar with the commands. I also struggled with getting Ruby to compile and run in Windows 7. Still no luck but that's okay - I'll stick to my Linux laptop for now.
+
+I was only able to get through half of chapter 1 so far in my Ruby book - it's super long!
+
+This is what I learned so far:
+
+a)Ruby is a pretty straightforward language.
+	- It basically is the best example of the saying, 'it is what it is'.
+	- You do not necessarily have to declare things ahead of time
+	- Just make it when you need it
+
+b)There are two ways to print something to the string. 
+	1) print: allows the cursor to remain on the same line as the prompt
+		example: Enter your name:_
+	2) puts: adds a line feed at the end of the printed string
+		example: My name is Maria
+			 _
+
+c)gets() is used to read in a string up until the user presses ENTER or RETURN
+	-it does not require parantheses
+	-it can be assigned to a variable
+		example: assigning it to a string; name = gets()
+
+d)Ruby is case sensitive
+	-myvar != myVar
+	-if a variable name starts with an uppercase letter, it is considered a constant
+	
+e)embedding a variable into a string can be done as follows
+	example: "Hello #{name}"
+	NOTE: it must be done with double quotes or else it will actually print 		out Hello #{name} instead of Hello Maria
+
+f)You can embed nonprinting characters as well
+	-\n makes a new lines
+	-\t tabs
+
+g)Order of Operations is the same as C++/Java
+	-so far
+
+h)Testing a Condition can be done with if..then statement
+	example: if (count < 0.0) then
+			count = 0
+		end
+
+	-it reminds me a little of FORTRAN in this case
+
+i)Local and Global Variables
+	-variables that start with lowercase letters are called local variables
+		-local variable means that the variable exists only within a specific part of a program
+			-they are restricted/limited to a defined area
+	-global variables are not limited and can be used throughtout the program
+		-this is an example of how to initiate one:  $globalvar = "goodbye"
+		-must have $ prior to any letters for global variables
