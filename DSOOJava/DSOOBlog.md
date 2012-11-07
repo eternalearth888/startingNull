@@ -9,7 +9,7 @@ November 6, 2012
 			-the keyword class at the start of each Java application program indicates that the program itself is a class with its own method to carry out the tasks
 		+programmers  who use the classes must be provided with a specification of how the classes work, but they need no knowledge of how the classes are implemented
 			-information hiding: the seperation of specification from implementantion
-+mathematical data types are called abstract data types (ADTs)
+	+mathematical data types are called abstract data types (ADTs)
 			-programmers sometimes use the term ADT to refer to a class that is presented to other programmers with information hiding
 	
 	2.1 Classes and their Members:
@@ -21,4 +21,5 @@ November 6, 2012
 				-'methods'
 					-desgined to manipulate the data
 			-taken together: the data, constructors, and methods of a class are called the class 'members'
+		//worked on throttle class example//	
 		
