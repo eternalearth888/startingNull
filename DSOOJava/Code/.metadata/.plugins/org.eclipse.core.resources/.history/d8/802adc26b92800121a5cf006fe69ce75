@@ -3,21 +3,6 @@
  * Author: Maria Deslis
  * 
  */
-
-/*
- * Notes:
- * Keyword: public 
- * 	+Is necessary before class because we want to allow other programmers (the public) to use the new class
- * 
- * Syntax: always use a capital letter for the first character of names of new classes
- * 
- * The rest of the class definition, between the two brackets {} is a list of all the components of the class
- * 	+these components are called members of the class (3 types)
- *			-instance variables
- *			-constructors
- *			-methods
-*/
-
 public class Throttle {
 	/* 
 	 * First kind of member: Variable Declaration
@@ -52,12 +37,6 @@ public class Throttle {
 	 * If there are several constructors, then each constructor must have a distinct sequence of parameters to distringuish it from
 	 * the other constructors
 	 * 
-	 * NO-ARGUMENT CONSTRUCTORS
-	 * 	+Some classes have a constructor with no parameters
-	 * 	+a no-arguments constructor does not need any extra information to set the initial values of the instance variables
-	 * 	+if you write a class with no constructors at all, then Java automatically provides a no-arguments constructor that 
-	 * 		initializes each instance var to its initialization value or to its default value
-	 * 
 	 */
 	
 	//constructor for the Throttle
@@ -65,11 +44,24 @@ public class Throttle {
 	//PRECONDITION: size > 0
 	//POSTCONDITION: This Throttle has been initialized with the specified number of on positions above the shut off point, and it is currently shut off
 	public Throttle(int size){
-		//error check, making sure that you can't go below off
 		if(size <= 0)
 			throw new IllegalArgumentExcepton("Size <=0: " + size);
 		//sets top according to parameter
 		top = size;
-		//No assignment needed for position - it gets the default value of zero (off)
+			//No assignment needed for position - it gets the default value of zero (off)
 	}
 }
+
+/*
+ * Notes:
+ * Keyword: public 
+ * 	+Is necessary before class because we want to allow other programmers (the public) to use the new class
+ * 
+ * Syntax: always use a capital letter for the first character of names of new classes
+ * 
+ * The rest of the class definition, between the two brackets {} is a list of all the components of the class
+ * 	+these components are called members of the class (3 types)
+ *			-instance variables
+ *			-constructors
+ *			-methods
+*/
