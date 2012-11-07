@@ -25,12 +25,10 @@ public class Throttle {
 		//No assignment needed for position - it gets the default value of zero (off)
 	}
 	
-	//accessor method
-	public double getFlow() {
-		//get the current flow of this Throttle
-		//returns the current flow rate as a proportion of the maximum flow
-			//example, throttle is on position 4 so the flow rate is 4/6
-		
-		return (double) position / (double) top;
-	}
+	/*
+	 * SECOND MEMBER: METHODS
+	 * 	A method does computations that access the class's instance variables
+	 * 
+	 * Classes tend to have TWO KINDS OF METHODS:
+	 */
 }
