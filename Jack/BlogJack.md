@@ -12,3 +12,4 @@ November 8, 2012
 				+A Jack subroutine can be a function, a method, or a constructor
 		+THERE MUST BE ONE MAIN CLASS AND ONE OF ITS METHODS MUST BE MAIN
 
+//NOTE: did not complete as much as i wanted today because i have a lot of homework tonight so i was doing the project in between breaks and what not. tomorrow night i will do at least two hours//

@@ -1,0 +1,20 @@
+/*the keyword public is necessary before class because we want to allow
+ * other programmers (the public) to use the new class
+ * 
+ * Syntax: always use a capital letter for the first character of names of new classes
+ * 
+ * The rest of the class definition, between the two bracks {} is a list of all the components of the class
+ * 	+these components are called members of the class (3 types)
+ *			-instance variables
+ *			-constructors
+ *			-methods
+ */
+public class Throttle {
+	/* 
+	 * 
+	 */
+	//the topmost position of the lever
+	private int top;
+	//the current position of the lever
+	private int position;
+}
