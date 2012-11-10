@@ -54,9 +54,7 @@ How do you plan to do this?
 
 	2) When you are done with that chapter
 		a) Append to the 'Learning File'
-		b) Summize what you learned
-		c) Talk about how you would explain the concept to another person if they knew nothing about computer science
-
+	
 	3) Review your commits and realize your accomplishments
 
 	4) Take it one day at a time
@@ -71,3 +69,7 @@ How do you plan to do this?
 		b) Ending December 2, 2012
 
 	8) Slowness != Laziness; Just go one step at a time
+	
+	9)When done with your 30 days
+		a)Summize what you learned
+		b)Talk about it in a way that would make it easy for someone who doesn't know anything about computer science to learn from
