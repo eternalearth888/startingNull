@@ -65,8 +65,8 @@ How do you plan to do this?
 		a) Don't make it easy to stop what you are doing
 
 	7) You must do this for at least 30-days
-		a) Starting November 3, 2012
-		b) Ending December 2, 2012
+		a) Starting December 16, 2012
+		b) Ending January 8, 2012
 
 	8) Slowness != Laziness; Just go one step at a time
 	
