@@ -49,8 +49,7 @@ How do you plan to do this?
 
 	Here are the basic rules on how I plan to make this happen:
 
-	1) Spend a minimum of two hours a day going through a chapter in a book and just doing it and reading it.
-		a) Consider doing at least 4 on weekend days
+	1) Spend a minimum of one hour a day going through a chapter in a book and just doing it and reading it.
 
 	2) When you are done with that chapter
 		a) Append to the 'Learning File'
@@ -65,8 +64,8 @@ How do you plan to do this?
 		a) Don't make it easy to stop what you are doing
 
 	7) You must do this for at least 30-days
-		a) Starting December 16, 2012
-		b) Ending January 8, 2012
+		a) Starting December 19, 2012
+		b) Ending January 10, 2012
 
 	8) Slowness != Laziness; Just go one step at a time
 	
