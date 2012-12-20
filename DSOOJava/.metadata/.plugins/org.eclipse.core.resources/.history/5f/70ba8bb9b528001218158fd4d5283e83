@@ -1,7 +1,0 @@
-//defining a new class
-public class Throttle {
-	//the topmost position of the lever
-	private int top;
-	//the current position of the lever
-	private int position;
-}
