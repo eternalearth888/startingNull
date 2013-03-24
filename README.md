@@ -1,21 +1,21 @@
 Who am I?
 
-	My name is Maria Deslis. I am juniour in Computer Science.
-	I am also struggling, frustrated, and above all...lost.
+	My name is Maria Deslis. I am majoring in Computer Science.
 ****************
 What am I doing?
 
 	My plan is to make change in my life.
 
-	Despite my current struggles, I love Computer Science with all my heart and I still have a strong thirst for learning as much as I can.		Perhaps the reason I am struggling and confused is because I am simply burnt out.
-	Perhaps I wasn't studying correctly. Perhaps the way I was being taught was not working for me.
-	The bottom line is, things need to change.
+	Despite my current struggles, I love Computer Science with all my heart and I still have a strong thirst for learning as much as I can.		
+	For a long time, I thought it was because I wasn't studying enough. But with time, I noticed that I worked myself into an exhaustion so deep that I also got massively sick. Not to mention, my grades got far worse no matter what I did.
+	I also noticed that I wasn't studying for the fun and joy of learning anymore. I was studying to avoid consequences - not for my pleasure.
+	When I realized this, I knew things needed to change. I needed to gain back my love of learning. I needed to take care of myself again. 
 
 	My plan, is to just start at the beginning. 
 ****************
 Why am I doing this?	
 
-	Starting over is not easy. Especally being in the middle of getting my degree in the thing I am struggling with. 
+	Starting over is not easy. Especally being in the middle of getting my degree.
 
 	The difference between what I am doing here versus what I am doing in the classroom is simple:
 	I am taking it one step at a time, at my own pace. Without the pressure/anxiety of grades/school.
@@ -29,11 +29,11 @@ Why am I doing this?
 	Spending countless hours and studying, going to office hours, doing review only to end up making everything worse. 
 	If we fail a class we have to take it again. And if you have to take a class too many times one of two (or sometimes both) things happen:
 
-	1) You begin to doubt your ability (gaining other negative feelings as well) with the thing you love. Thus putting you in a vicious cycle.	
+	1) You begin to doubt your ability (gaining other negative feelings as well) with the thing you love. Thus, putting you in a vicious cycle.	
 
 	2) You get in trouble with the school (probation, kicked out, etc.)
 		
-	I know that the above things does not apply to everyone and everything, but it does seem to be the general consensus. 
+	I know that the above things does not apply to everyone and everything, but it does seem to be the general consensus from my observations.
 
 	And it's definitley been my experience.
 
@@ -43,30 +43,22 @@ Why am I doing this?
 ***************
 Why GitHub?
 
-	Much like an artist or a writer is able to see the progression of their skill and ability by being able to see the many past works they have created, so will GitHub and it's commit history allow me to see the progression I make as a computer scientist.
+	Much like an artist or a writer is able to see the progression of their skill and ability by being able to see the many past works they have created, so will GitHub and it's commit history allow me to see the progression I make as a Computer Scientist.
 ***************
 How do you plan to do this?
 
-	Here are the basic rules on how I plan to make this happen:
+	Ingredients:
+	1) Think Like a Programmer: An Introduction to Creative Problem Solving
+		by V. Anton Spraul
+	2) Code
+		by Charles Petzold
+	3) Data Structures and Other Objects Using Java
+		by Michael Main
 
-	1) Spend a minimum of one hour a day going through a chapter in a book and just doing it and reading it.
+	Recipe:
+	1) Think Like a Programmer is my main book. I will give myself different projects and do my best to work on them each week and see how far I get.
+	2) I will write small reflections in a folder called blog. 
+		a) In this folder I will write any improvement I have observed
+		b) I will write thoughts on matters I have not noticed before 
+		c) I will write about the process of teaching myself and learning
 
-	2) When you are done with that chapter
-		a) Append to the 'Learning File'
-	
-	3) Review your commits and realize your accomplishments
-
-	4) Take it one day at a time
-
-	5) Do NOT rush
-
-	6) Make it a public repository so that you feel as though someone is holding you accountable
-		a) Don't make it easy to stop what you are doing
-
-	7) You must do this for at least 30-days
-
-	8) Slowness != Laziness; Just go one step at a time
-	
-	9)When done with your 30 days
-		a)Summize what you learned
-		b)Talk about it in a way that would make it easy for someone who doesn't know anything about computer science to learn from
