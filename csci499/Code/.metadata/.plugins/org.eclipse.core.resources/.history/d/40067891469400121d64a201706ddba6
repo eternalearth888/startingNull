@@ -18,7 +18,7 @@ public class LinkedLists {
 	}
 
 	// A method to find a specific location in a linked list
-	public Node listPosition(int position) throws RuntimeException {
+	public LinkedLists listPosition(int position) throws RuntimeException {
 
 		if ( position < 0) {
 			throw new RuntimeException("ERROR: This position is out of bounds.");
