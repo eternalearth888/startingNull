@@ -1,0 +1,13 @@
+package exercises;
+
+public class Nodes {
+	private int data; // Element stored in the node
+	private Nodes next; // Refers to the next node in the list
+	
+	// Declaring Nodes 
+	Nodes head;	// The lists first node
+	Nodes tail;	// The lists last node
+	
+	// Default constructor for the Node class
+	
+}

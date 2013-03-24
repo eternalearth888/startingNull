@@ -11,7 +11,7 @@ public class Strings {
 		char[] newArr = new char[length];
 		
 		// starting from position i in the original array
-		// starting from the first positionin the new array
+		// starting from the first position in the new array
 		// increment the total length from the starting position
 		// and copy that value into the new array
 		// we do this in one for loop because otherwise we would end up 
