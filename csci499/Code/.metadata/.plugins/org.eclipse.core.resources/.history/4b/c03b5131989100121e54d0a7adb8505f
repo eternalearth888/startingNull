@@ -1,0 +1,22 @@
+package exercises;
+
+public class concatenateAppend {
+	
+	// Fields for concatenateAppend
+	public String first;
+	public String second;
+	public String combined;
+
+	
+	// Default constructor
+	public concatenateAppend(String first, String second) {
+		first = this.first;
+		second = this.second;
+	}
+	
+	// Add the strings together
+	public String combine(String first, String second) {
+		// The new string will have a length that is equal to that of teh first and second
+		combined.length() = first.length() + second.length();
+	}
+}

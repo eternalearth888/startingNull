@@ -1,0 +1,20 @@
+INDEX VERSION 1.126+/media/earth/EARTH/spring2013/csci499/Code/.metadata/.plugins/org.eclipse.jdt.core
+1609788100.index
+954478507.index
+4059697655.index
+1159935248.index
+3215832664.index
+2031085872.index
+3296295421.index
+2264736097.index
+2913048097.index
+534805504.index
+1453598739.index
+3640646894.index
+2895934474.index
+1279675953.index
+3437015383.index
+412726466.index
+3859595601.index
+207581026.index
+1961235293.index

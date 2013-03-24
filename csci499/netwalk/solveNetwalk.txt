@@ -1,0 +1,29 @@
+===========================
+	Maria Deslis
+	chapter1 - solveNetwalk
+	csci499
+	Rader
+===========================
+
+	1. First go around the outer edges of the network
+		a. Turn all corners so that they are facing inwards
+		b. Turn all 'T' shaped pipes so that their long side is parallel with the blank spot
+		c. Turn all long pipes so that they are parallel with the blank spot
+
+	2. Next look to see if there are any long bars between two computers.
+		a. If there are any, they must NOT be connecting the two computers or else that would be close loop.
+		b. Make sure it is perpendicular to the two computers.
+
+	3. When there are two or more long pipes next to eachother or  even a 'T' pipe and a long pipe, they must ALL face the same direction. The 'T' long side must be 		parallel with the long pipe.
+
+	4. If a corner pipe and a long pipe are next to eachother, the corner must be have it's long/flat side face the corner. 
+
+	5. If there is ever a long pipe in between two computers, it cannot connect the two computers because that would be a close loop.
+
+	6. If you know a conern cannot attach on one side, you know that it can attach on the opposite side.
+
+	7. When a piece has as many possible attachment points as it has things to attach to, then it must be rotated to attach to all of them.
+
+	8. If the number of place it can attach to are greater than the number of attachment points it has, it must be rotated to avoid all of them
+
+

@@ -1,0 +1,8 @@
+package exercises;
+
+public class concatenateAppend {
+	
+	// Fields for concatenateAppend
+	public String first;
+	public String second;
+}

@@ -1,0 +1,11 @@
+package tests;
+
+public class TestNode {
+	public static char NULL = '\0';
+
+	@Test
+	public testTraversal {
+		
+	}
+	
+}

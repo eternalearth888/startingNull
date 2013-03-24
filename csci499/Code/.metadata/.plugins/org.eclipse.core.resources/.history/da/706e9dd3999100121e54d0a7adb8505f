@@ -1,0 +1,27 @@
+package exercises;
+
+class characterAt {
+	
+	// Fields for characterAt
+	// made private so that they can only be directly accessed from this class
+	private String original;
+	private int position;
+	
+	// Default constructor
+	public characterAt(String original, int position) {
+		original = this.original;
+		position = this.position;
+	}
+	
+	//	Method to ensure that the position is not out of bounds
+	public void errorBounds(String original, int position) {
+		if (position > original.length()) {
+			System.out.println("ERROR: This position is out of bounds.");
+		}
+	}
+	
+	
+	
+		
+		
+}

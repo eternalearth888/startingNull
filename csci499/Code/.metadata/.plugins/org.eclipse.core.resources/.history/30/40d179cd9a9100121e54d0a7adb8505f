@@ -1,0 +1,37 @@
+package exercises;
+
+class characterAt {
+	
+	// Fields for characterAt
+	// made private so that they can only be directly accessed from this class
+	private String original;
+	private int position;
+	
+	// Default constructor
+	public characterAt(String original, int position) {
+		original = this.original;
+		position = this.position;
+	}
+	
+	// Turn the string into a character array
+	public char[] createArray(String original) {
+		char[] stringArray = original.toCharArray();
+	}
+	
+	//	Return character at position
+	public char errorBounds(char[] original, int position) throws RuntimeException {
+		// If the position of out of bounds, throwRuntimeException
+		if (position > original.length || position < 0) {
+			throw new RuntimeException();
+		}
+	
+		// otherwise just return the element in the index
+		return original[position];
+	}
+	
+	
+	
+	
+		
+		
+}

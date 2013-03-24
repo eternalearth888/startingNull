@@ -1,0 +1,30 @@
+===========================
+	Maria Deslis
+	chapter1 - solveSudoku
+	csci499
+	Rader
+===========================
+
+	1. The first thing you must do is to write numbers 1-9 in order in a 3x3 square in every blank square 
+
+	2. Next, take one number that was already given on the sudoku puzzle, and go across. In every square that you have your 3x3 grid, erase that same number that is 	in the same row. I recommend writing a horizontal mark once you're done with this step so that you know you did it and don't have to backtrack.
+		- For example, if you were focusing on the number 5 that was already given, erase all the fives in the grids you created in that row.
+
+	3. Do the same thing as the previous step, except this time you will be applying it to columns. I recommend writing a vertical mark once you're done with this 		step so that you know you did and don't have to backtrack.
+		- For example, if you were focusing on the number 5 that was already given, erase all the fives in the grids that you created in that column
+
+	4. Now, similar to steps 2 and 3, you will erase all the numbers in the grid that are in the same '3x3 square' as the numberyou are currently focusing on. I 		recommend creating a diagonal slash through that number once you have completed it so you don't have to backtrack.
+
+	5. Find all the grids where you left with only one number. Replace that entire grid with just that number so it fills that square.
+
+	6. If you have any new filled squares from step 5, repeat steps 2-4. 
+
+	7. If you end up having more squares to fill because of it, repeat steps 2-6 until you no longer have grids that have a single digit
+
+	8. Now, look at all the numbers left in the grids contained in each 3x3 square. If you see a number that is by itself in a grid, even if there are other numbers 	in it, that is not repeated in any of the other grids within the 3x3 quadrant, fill that square with that single number and repeat steps 2-7.
+
+	9. Repeat this process until you have filled your square.
+
+	10. If the numbers start to jumble together and you can't tell 7 from 1, I recommend you get up and do something else for at least 10 minutes to give your eyes 	and mind a break.
+
+
