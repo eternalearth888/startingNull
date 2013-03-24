@@ -22,6 +22,6 @@
 <fullyQualifiedTypeName name="exercises.LLNode"/>
 <fullyQualifiedTypeName name="exercises.variableLength"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="exercises.Node"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="exercises.Node"/>
 </qualifiedTypeNameHistroy>

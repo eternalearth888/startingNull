@@ -6,7 +6,7 @@ import exercises.LinkedLists;
 import exercises.Node;
 
 public class TestLinkedLists {
-	int T;
+	T = data type, e.g., int, char
 
 			public boolean testListContents(T[] values) {
 		// handle case where both are empty

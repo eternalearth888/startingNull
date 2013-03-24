@@ -9,9 +9,9 @@ public class LinkedLists {
 	
 	// A method to search for a target in a linked list
 	public LinkedLists listTarget(int target) {
-		while (head.next != null) {
-			if (target == head.data) {
-				return head;
+		while (current.next != null) {
+			if (target == current.data) {
+				return current;
 			}
 		}
 

@@ -28,8 +28,8 @@ public class TestPointers {
 		char[] original = {'h', 'e', 'l', 'l','o', ' ', 'w', 'o', 'r', 'l', 'd'};
 		char[] expected = {'w', 'o', 'r', 'l', 'd'};
 		char[] actual = Strings.ex4_2_substring(original, 6, 5);
-//		int[] nums  = {1, 2, 3};
-//		int[] num2 = {1, 2, 3};
+		int[] nums  = {1, 2, 3};
+		int[] num2 = {1, 2, 3};
 		assertTrue(Arrays.equals(expected, actual));
 	}
 	@Test

@@ -1,4 +1,6 @@
-package exercises;
+package tests;
+
+import exercises.Node;
 
 public class Node {
 	// Fields

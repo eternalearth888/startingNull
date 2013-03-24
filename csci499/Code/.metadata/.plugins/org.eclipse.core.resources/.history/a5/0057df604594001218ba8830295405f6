@@ -1,19 +1,21 @@
-package exercises;
+package tests;
+
+import exercises.LinkedLists;
 
 public class Node {
 	// Fields
 
 	private int data; // Element stored in the node
-	private Node next; // Refers to the next node in the list
+	private LinkedLists next; // Refers to the next node in the list
 
-	// Declaring Node 
-	Node head;	// The lists first node
-	Node tail;	// The lists last node
+	// Declaring LinkedLists 
+	LinkedLists head;	// The lists first node
+	LinkedLists tail;	// The lists last node
 
 	// Default constructor for the Node class
 
 	// We want to initialize a node with specified initial data and link to the next node or the null reference
-	public Node(int givenData, Node connectNodes) {
+	public LinkedLists(int givenData, LinkedLists connectNodes) {
 		data = givenData;
 		next = connectNodes;
 	}
@@ -26,7 +28,7 @@ public class Node {
 	}
 
 	//Accessor method to get a reference to the next node
-	public Node getNext() {
+	public LinkedLists getNext() {
 		return next;
 	}
 
@@ -38,7 +40,7 @@ public class Node {
 	}
 
 	// Modification method to set the reference to the next node
-	public void setNext(Node newNext) {
+	public void setNext(LinkedLists newNext) {
 		next = newNext;
 	}
 

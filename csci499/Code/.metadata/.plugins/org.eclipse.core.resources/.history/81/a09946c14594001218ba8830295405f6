@@ -8,10 +8,12 @@ public class LinkedLists {
 	int data;
 	
 	// A method to search for a target in a linked list
-	public LinkedLists listTarget(int target) {
-		while (head.next != null) {
-			if (target == head.data) {
-				return head;
+	public LinkedLists listTarget(LinkedLists head, int target) {
+		LinkedLists current = head;
+
+		while (current.next != null) {
+			if (target == current.data) {
+				return current;
 			}
 		}
 
@@ -20,15 +22,16 @@ public class LinkedLists {
 
 	// A method to find a specific location in a linked list
 	public LinkedLists listPosition(int position) throws RuntimeException {
+		LinkedLists current = head;
 
 		if ( position < 0) {
 			throw new RuntimeException("ERROR: This position is out of bounds.");
 		}
 
-		for (int i = 0; (i < position) && (head.next != null); i++) { 
-			head = head.next;
+		for (int i = 0; (i < position) && (current.next != null); i++) { 
+			current = current.next;
 		}
 
-		return head;
+		return current;
 	}
 }

@@ -6,13 +6,14 @@ import exercises.LinkedLists;
 import exercises.Node;
 
 public class TestLinkedLists {
-	int T;
+	// T = data type, e.g., int, char
+	
 
-			public boolean testListContents(T[] values) {
+	public boolean testListContents(Object[] values) {
 		// handle case where both are empty
 		if (head == null && values == null)
 			return true;
-		LLNode<T> curr = head;
+		Node curr = head;
 		int ix = 0;
 		while (curr != null) {
 			// handle case where list has more value than array
@@ -34,13 +35,13 @@ public class TestLinkedLists {
 
 	@Test
 	public void testConcatenate() {
-		LL<Character> ll = new LL<Character>();
-		ll.append('a');
-		ll.append('b');
-		LL<Character> l2 = new LL<Character>();
-		l2.append('c');
-		l2.append('d');
-		ll.concatenate(l2);
+		LinkedLists ll = new LinkedLists();
+		ll.ex4_7_concatenateAppend('a');
+		ll.ex4_7_concatenateAppend('b');
+		LinkedLists l2 = new LinkedLists();
+		l2.ex4_7_concatenateAppend('c');
+		l2.ex4_7_concatenateAppend('d');
+		ll.ex4_7_concatenateAppend(l2);
 		assert(ll.testListContents(new Character[] {'a', 'b', 'c', 'd'}));
 	}
 
