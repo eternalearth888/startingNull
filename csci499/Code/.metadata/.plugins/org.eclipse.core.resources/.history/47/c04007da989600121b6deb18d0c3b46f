@@ -1,0 +1,20 @@
+package exercises;
+
+public class Node {
+
+	// Fields
+	public int data;
+	public Node next;
+	
+	// Default Node constructor
+	public Node(int newData, Node nextNode) {
+		data = newData;
+		next = nextNode;
+	}
+	
+	// Print the Node
+	public String printNode() {
+		return "{" + data + "}";
+	}
+	
+}

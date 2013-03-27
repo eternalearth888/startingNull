@@ -1,0 +1,9 @@
+package exercises;
+
+public class Node {
+
+	// Fields
+	public int data;
+	public Node next;
+	
+}

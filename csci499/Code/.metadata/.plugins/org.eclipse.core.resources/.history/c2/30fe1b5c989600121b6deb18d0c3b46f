@@ -1,0 +1,12 @@
+package exercises;
+
+import exercises.Node;
+
+public class LinkedList {
+	// Fields
+	public int data;
+	
+	
+	
+	
+}

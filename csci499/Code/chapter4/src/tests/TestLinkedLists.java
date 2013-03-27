@@ -2,7 +2,7 @@ package tests;
 
 import org.junit.Test;
 
-import exercises.LinkedLists;
+import exercises.LinkedList;
 import exercises.Node;
 
 public class TestLinkedLists {

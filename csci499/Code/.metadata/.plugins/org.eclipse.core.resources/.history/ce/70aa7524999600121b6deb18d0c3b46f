@@ -1,0 +1,15 @@
+package exercises;
+
+import exercises.Node;
+
+public class LinkedList {
+	// Fields
+	private LinkedList head;
+	
+	// Default LinkedList constructor
+	public LinkedList() {
+		head = null;
+	}
+	
+	
+}

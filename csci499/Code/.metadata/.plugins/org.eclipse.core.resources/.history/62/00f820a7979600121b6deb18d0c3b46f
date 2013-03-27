@@ -1,0 +1,16 @@
+package exercises;
+
+import exercises.Node;
+
+public class LinkedList {
+	
+	// Fields
+	private int modifyData;
+	private LinkedList head;
+	
+	// Default constructor for Linkedlist
+	public LinkedList(int data) {
+		data = modifyData;
+	}
+	
+}
