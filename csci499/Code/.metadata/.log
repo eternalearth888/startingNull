@@ -6042,3 +6042,51 @@ Command-line arguments:  -os linux -ws gtk -arch x86
 
 !ENTRY org.eclipse.ui 4 4 2013-03-26 22:24:26.645
 !MESSAGE Unable to find Action Set: adt.actionSet.lint
+!SESSION 2013-03-26 22:59:03.465 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2013-03-26 22:59:10.105
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.context.ui.actionSet
+
+!ENTRY org.eclipse.ui 4 4 2013-03-26 22:59:10.109
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.tasks.ui.navigation
+
+!ENTRY org.eclipse.ui 4 4 2013-03-26 22:59:10.109
+!MESSAGE Unable to find Action Set: adt.actionSet.wizards
+
+!ENTRY org.eclipse.ui 4 4 2013-03-26 22:59:10.109
+!MESSAGE Unable to find Action Set: adt.actionSet.refactorings
+
+!ENTRY org.eclipse.ui 4 4 2013-03-26 22:59:10.110
+!MESSAGE Unable to find Action Set: adt.actionSet.avdManager
+
+!ENTRY org.eclipse.ui 4 4 2013-03-26 22:59:10.110
+!MESSAGE Unable to find Action Set: adt.actionSet.lint
+!SESSION 2013-03-27 10:53:08.839 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2013-03-27 10:53:28.765
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.context.ui.actionSet
+
+!ENTRY org.eclipse.ui 4 4 2013-03-27 10:53:28.782
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.tasks.ui.navigation
+
+!ENTRY org.eclipse.ui 4 4 2013-03-27 10:53:28.782
+!MESSAGE Unable to find Action Set: adt.actionSet.wizards
+
+!ENTRY org.eclipse.ui 4 4 2013-03-27 10:53:28.782
+!MESSAGE Unable to find Action Set: adt.actionSet.refactorings
+
+!ENTRY org.eclipse.ui 4 4 2013-03-27 10:53:28.783
+!MESSAGE Unable to find Action Set: adt.actionSet.avdManager
+
+!ENTRY org.eclipse.ui 4 4 2013-03-27 10:53:28.783
+!MESSAGE Unable to find Action Set: adt.actionSet.lint

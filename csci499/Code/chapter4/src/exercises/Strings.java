@@ -1,6 +1,6 @@
 package exercises;
 
-import tests.TestPointers;
+import tests.TestStrings;
 
 
 
@@ -66,7 +66,7 @@ public class Strings {
 		
 		// if the current position of the of the array is the null terminator
 		// throw the RuntimeException
-		if (original[position] == TestPointers.NULL) {
+		if (original[position] == TestStrings.NULL) {
 			throw new RuntimeException();
 		}
 		
