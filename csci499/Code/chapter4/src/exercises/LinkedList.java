@@ -1,8 +1,10 @@
+// Help with templatable stuff from Chris Card
+
 package exercises;
 
 import exercises.Node;
 
-public class LinkedList {
+public class LinkedList<T> {
 	// Fields
 	private Node head;
 	
@@ -12,16 +14,16 @@ public class LinkedList {
 	}
 	
 	// Insert element at the head of the list
-	public void insertAtHead(int newData) {
-		Node createNode = new Node(newData);
+	public void insertAtHead(T newData) {
+		Node<T> createNode = new Node<T>(newData);
 		
 		createNode.next = head;
 		head = createNode;
 	}
 	
-	// Print the LinkedList
+	// PrT the LinkedList
 	public void printLinkedList() {
-		Node current = head;
+		Node<T> current = head;
 		
 		System.out.print("Current List: ");
 		
@@ -34,11 +36,11 @@ public class LinkedList {
 	}
 	
 	// Traversing the list to find a character at
-	public void characterAt(int findChar) {
-		Node current = head;
+	public void characterAt(T findChar) {
+		Node<T> current = head;
 		
 		while(current.next != null) {
-			if(current.data == findChar) {
+			if(current.compareTo(findChar)== 0) {
 				System.out.print("FOUND IT!: ");
 				current.printNode();
 				current = current.next;
@@ -51,9 +53,9 @@ public class LinkedList {
 	}
 	
 	// Append to the end of the list
-	public void append(int addChar) {
-		Node current = head;
-		Node appendNode = new Node(addChar);
+	public void append(T addChar) {
+		Node<T> current = head;
+		Node<T> appendNode = new Node<T>(addChar);
 		
 		while(current.next != null) {
 			current = current.next;
@@ -69,7 +71,7 @@ public class LinkedList {
 	}
 	
 	// RemoveChar
-	public void removeChar(LinkedList list, int startPos, int numRemove) {
+	public void removeChar(LinkedList<T> list, T startPos, T numRemove) {
 		
 	}
 	

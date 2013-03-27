@@ -1,0 +1,30 @@
+package exercises;
+
+public class Node<T> implements Comparable<T>{
+
+	// Fields
+	public T data;
+	public Node<T> next;
+	
+	// Default Node constructor
+	public Node(T newData) {
+		data = newData;
+	}
+	
+	// Print the Node
+	public String printNode() {
+		return "{" + data + "}";
+	}
+
+	/**
+	 * @return 0 for equals
+	 * @returns -1 this.data is less than that.data
+	 * @returns 1 this.data is greater than that.data
+	 */
+	@Override
+	public int compareTo(T arg0) {
+		// TODO Auto-generated method stub
+		return this.data.compareTo(arg0.data);
+	}
+	
+}
