@@ -34,16 +34,16 @@ public class TestLinkedList<T> {
 		// we've handled all errors, so we must match
 		return true;
 	}
-//
-//	@Test
-//	public void testConcatenate() {
-//		LinkedList<Character> ll = new LinkedList<Character>();
-//		ll.append('a');
-//		ll.append('b');
-//		LinkedList<Character> l2 = new LinkedList<Character>();
-//		l2.append('c');
-//		l2.append('d');
-////		ll.concatenate(l2);
-////		assert (ll.testListContents(new Character[] { 'a', 'b', 'c', 'd' }));
-//	}
+
+	@Test
+	public void testConcatenate() {
+		LinkedList<Character> ll = new LinkedList<Character>();
+		ll.append('a');
+		ll.append('b');
+		LinkedList<Character> l2 = new LinkedList<Character>();
+		l2.append('c');
+		l2.append('d');
+		ll.concatenate(l2);
+		assert (ll.testListContents(new Character[] { 'a', 'b', 'c', 'd' }));
+	}
 }

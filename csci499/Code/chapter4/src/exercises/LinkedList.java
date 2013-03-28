@@ -85,7 +85,17 @@ public class LinkedList<T> {
 
 	// Concatenate
 	public void concatenate(LinkedList<T> list) {
-		LinkedList<T> magic = new LinkedList<T>();
+		LinkedList<T> newList = new LinkedList<T>();
+
+		Node<T> current = head;
+
+		if (head == null) {
+			newList = list;
+		} else {
+			while (current.next != null) {
+
+			}
+		}
 
 	}
 
@@ -94,4 +104,53 @@ public class LinkedList<T> {
 
 	}
 
+	// Remove Duplicate Values
+	public void removeDuplicate() {
+		Node<T> current = head;
+		Node<T> duplicate = head.next;
+
+		while (current.next != null) {
+			if (current.data == duplicate.data) {
+				current = duplicate.next;
+				duplicate = current.next;
+			} else {
+				current = current.next;
+				duplicate = duplicate.next;
+			}
+		}
+	}
+
+	// Add the new Node to beginning of the list, assuming the list is not null
+	// Not sure if I still techinically have to do this, or if I have it covered
+	// in the insertAtHead function above
+	public void insert(T addToFront) {
+		Node<T> previous = null;
+		Node<T> current = head;
+
+		while (current != null) {
+			if (previous == null) {
+				insertAtHead(addToFront);
+			} else {
+				previous = current;
+				current = current.next;
+			}
+		}
+	}
+
+	// Remove a character from the list
+	public void removeCharacter(T removeMe) {
+		Node<T> previous = null;
+		Node<T> current = head;
+		
+		while (current != null) {
+			if (current.compareTo(removeMe) == 0) {
+				current = current.next;
+			} else {
+				previous = current;
+				current = current.next;
+			}
+		}
+	}
+	
+	
 }

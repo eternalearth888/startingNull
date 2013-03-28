@@ -3,18 +3,19 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="305" key="DIALOG_WIDTH"/>
 		<item value="201" key="DIALOG_Y_ORIGIN"/>
-		<item value="421" key="DIALOG_HEIGHT"/>
 		<item value="23" key="DIALOG_X_ORIGIN"/>
+		<item value="421" key="DIALOG_HEIGHT"/>
 		<item value="1|Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="true" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="head" key="selection"/>
+		<item value="T" key="selection"/>
 		<list key="findhistory">
+			<item value="int"/>
 			<item value="current"/>
 			<item value="LinkedLists"/>
 			<item value="LLNode"/>
@@ -22,9 +23,9 @@
 			<item value="Runtime"/>
 			<item value="current.next.next"/>
 			<item value="curren"/>
-			<item value="list"/>
 		</list>
 		<list key="replacehistory">
+			<item value="T"/>
 			<item value="head"/>
 			<item value="Node"/>
 			<item value=""/>
@@ -32,7 +33,6 @@
 			<item value="System.out.println();"/>
 			<item value="row"/>
 			<item value="sevenLeftLTR"/>
-			<item value="sevenLeftRTL"/>
 		</list>
 	</section>
 </section>
