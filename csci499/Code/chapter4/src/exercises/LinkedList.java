@@ -1,4 +1,4 @@
-// Help with templatable stuff from Chris Card
+// Chris Card helped me with understanding Templates and how Comparable works
 
 package exercises;
 
@@ -15,6 +15,7 @@ public class LinkedList<T> {
 		tail = head;
 	}
 
+	// Assigned by Rader
 	// Insert element at the head of the list
 	public void insertAtHead(T newData) {
 		Node<T> createNode = new Node<T>(newData);
@@ -37,7 +38,7 @@ public class LinkedList<T> {
 		tail = createNode;
 	}
 
-	// PrT the LinkedList
+	// Print the LinkedList
 	public void printLinkedList() {
 		Node<T> current = head;
 
@@ -51,29 +52,33 @@ public class LinkedList<T> {
 		System.out.print(" ");
 	}
 
+	// Chapter 4 Problem 6, Chapter 5 Problem 3
 	// Traversing the list to find a character at
-	public void characterAt(T findChar) {
+	public boolean characterAt(T findChar) {
 		Node<T> current = head;
+		boolean isFound = false;
 
 		while (current.next != null) {
 			if (current.compareTo(findChar) == 0) {
-				System.out.print("FOUND IT!: ");
 				current.printNode();
 				current = current.next;
+				isFound = true;
 			} else {
 				current = current.next;
 			}
 		}
+		return isFound;
 	}
 
+	// Chapter 4 Problem 6, Chapter 5 Problem 3
 	// Append to the end of the list
 	public void append(T addChar) {
 		Node<T> current = head;
-		Node<T> appendNode = new Node<T>(addChar);
 
 		// Base Case
 		if (head == null) {
 			insertAtHead(addChar);
+			current.printNode();
 		} else {
 			while (current.next != null) {
 				current = current.next;
@@ -81,29 +86,47 @@ public class LinkedList<T> {
 			insertAtTail(addChar);
 		}
 
+		printLinkedList();
 	}
 
+	// Chapter 4 Problem 7, Chapter 5 Problem 3
 	// Concatenate
-	public void concatenate(LinkedList<T> list) {
-		LinkedList<T> newList = new LinkedList<T>();
+	public LinkedList<T> concatenate(LinkedList<T> secondList) {
+		LinkedList<T> listCopied = new LinkedList<T>();
 
 		Node<T> current = head;
+		// Copy data from the first list into the new list
+		listCopied.append(current.data);
 
-		if (head == null) {
-			newList = list;
-		} else {
-			while (current.next != null) {
+		Node<T> secondHead = secondList.head;
+		// Copy data from the second list in the new list
+		listCopied.append(secondHead.data);
 
+		printLinkedList();
+
+		return listCopied;
+	}
+
+	// Chapter 4 Problem 8, Chapter 5 Problem 5
+	// RemoveChar - still not sure if I did this one correctly
+	public void removeChar(LinkedList<T> thisList, int startPos, int numRemove) {
+		Node<T> thisCurrent = thisList.head;
+		int countPos = 0;
+
+		while (thisCurrent.next != null) {
+			if (countPos == startPos) {
+				for (int i = 0; i < numRemove; i++) {
+					thisCurrent = thisCurrent.next;
+				}
+			} else {
+				thisCurrent = thisCurrent.next;
+				countPos++;
 			}
 		}
 
 	}
 
-	// RemoveChar
-	public void removeChar(LinkedList<T> list, T startPos, T numRemove) {
-
-	}
-
+	// Assigned by Rader
 	// Remove Duplicate Values
 	public void removeDuplicate() {
 		Node<T> current = head;
@@ -120,8 +143,9 @@ public class LinkedList<T> {
 		}
 	}
 
+	// Assigned by Rader
 	// Add the new Node to beginning of the list, assuming the list is not null
-	// Not sure if I still techinically have to do this, or if I have it covered
+	// Not sure if I still technically have to do this, or if I have it covered
 	// in the insertAtHead function above
 	public void insert(T addToFront) {
 		Node<T> previous = null;
@@ -137,11 +161,12 @@ public class LinkedList<T> {
 		}
 	}
 
+	// Assigned by Rader
 	// Remove a character from the list
 	public void removeCharacter(T removeMe) {
 		Node<T> previous = null;
 		Node<T> current = head;
-		
+
 		while (current != null) {
 			if (current.compareTo(removeMe) == 0) {
 				current = current.next;
@@ -151,6 +176,5 @@ public class LinkedList<T> {
 			}
 		}
 	}
-	
-	
+
 }

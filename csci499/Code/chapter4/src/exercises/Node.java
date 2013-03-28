@@ -13,7 +13,7 @@ public class Node<T> implements Comparable<T>{
 	
 	// Print the Node
 	public String printNode() {
-		return "{" + data + "}";
+		return " " + data + ",";
 	}
 
 	/**
