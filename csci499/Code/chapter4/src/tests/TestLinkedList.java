@@ -6,34 +6,34 @@ import exercises.LinkedList;
 import exercises.Node;
 import org.junit.Test;
 
-public class TestLinkedList<T> {
+public class TestLinkedList {
 	// T = data type, e.g., int, char
 
-	public Node<T> head;
-
-	public boolean testListContents(T[] values) {
-		// handle case where both are empty
-		if (head == null && values == null)
-			return true;
-		Node<T> curr = head;
-		int ix = 0;
-		while (curr != null) {
-			// handle case where list has more value than array
-			if (ix > values.length)
-				return false;
-			// handle case where values don't match
-			if (curr.data != values[ix])
-				return false;
-			// move to next element in both list and array
-			curr = curr.next;
-			ix++;
-		}
-		// handle case where array has more elements than list
-		if (ix < values.length)
-			return false;
-		// we've handled all errors, so we must match
-		return true;
-	}
+	// public Node<T> head;
+	//
+	// public boolean testListContents(T[] values) {
+	// // handle case where both are empty
+	// if (head == null && values == null)
+	// return true;
+	// Node<T> curr = head;
+	// int ix = 0;
+	// while (curr != null) {
+	// // handle case where list has more value than array
+	// if (ix > values.length)
+	// return false;
+	// // handle case where values don't match
+	// if (curr.data != values[ix])
+	// return false;
+	// // move to next element in both list and array
+	// curr = curr.next;
+	// ix++;
+	// }
+	// // handle case where array has more elements than list
+	// if (ix < values.length)
+	// return false;
+	// // we've handled all errors, so we must match
+	// return true;
+	// }
 
 	@Test
 	public void testConcatenate() {
@@ -46,4 +46,6 @@ public class TestLinkedList<T> {
 		ll.concatenate(l2);
 		assert (ll.testListContents(new Character[] { 'a', 'b', 'c', 'd' }));
 	}
+	
+
 }
