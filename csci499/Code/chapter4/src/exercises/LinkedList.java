@@ -2,6 +2,8 @@
 
 package exercises;
 
+import java.util.ArrayList;
+
 import exercises.Node;
 
 public class LinkedList<T> {
@@ -45,8 +47,8 @@ public class LinkedList<T> {
 
 		System.out.print("Current List: ");
 
-		while (current.next != null) {
-			current.printNode();
+		while (current != null) {
+			System.out.print(current.printNode());
 			current = current.next;
 		}
 
@@ -69,6 +71,7 @@ public class LinkedList<T> {
 				current = current.next;
 			}
 		}
+
 		return isFound;
 	}
 
@@ -87,6 +90,7 @@ public class LinkedList<T> {
 			}
 			insertAtTail(addChar);
 		}
+		// printLinkedList();
 	}
 
 	// Chapter 4 Problem 7, Chapter 5 Problem 3
@@ -101,48 +105,49 @@ public class LinkedList<T> {
 		Node<T> secondHead = secondList.head;
 		// Copy data from the second list in the new list
 		listCopied.append(secondHead.data);
-		
+		// printLinkedList();
 		return listCopied;
 	}
 
 	// Chapter 4 Problem 8, Chapter 5 Problem 5
 	// RemoveChar - still not sure if I did this one correctly
-	public void removeChar(LinkedList<T> thisList, int startPos, int numRemove) {
-		Node<T> thisCurrent = thisList.head;
-		Node<T> thisNext = thisList.next;
-		int countPos = 0;
+	public void removeChar(int startPos, int numRemove) {
+		Node<T> thisCurrent = head;
+		Node<T> thisNext = head.next;
 
-		while (thisNext != null) {
-			if (countPos == startPos) {
-				for (int i = 0; i < numRemove; i++) {
-					thisCurrent = thisCurrent.next;
-				}
-				thisNext = thisNext.next;
-			} else {
-				thisCurrent = thisCurrent.next;
-				thisNext = thisNext.next;
-				countPos++;
-			}
+		for (int i = 0; i < startPos - 1; i++) {
+			thisCurrent = thisCurrent.next;
 		}
+
+		thisNext = thisCurrent.next;
+
+		for (int j = 0; j < numRemove; j++) {
+			thisNext = thisNext.next;
+		}
+		thisCurrent.next = thisNext;
+
+		// printLinkedList();
+
 	}
 
 	// Assigned by Rader
 	// Remove Duplicate Values
 	public void removeDuplicate() {
+		ArrayList<T> tempCompare = new ArrayList<T>();
+		Node<T> previous = null;
 		Node<T> current = head;
-		Node<T> duplicate = head.next;
-		Node<T> before = head;
 
 		while (current != null) {
-			if (current.data == duplicate.data) {
-				before = duplicate.next;
-				duplicate = duplicate.next;
+			if (tempCompare.contains(current.data)) {
+				current = current.next;
+				previous.next = current;
 			} else {
-				duplicate = duplicate.next;
-				before = before.next;
+				tempCompare.add(current.data);
+				previous = current;
+				current = current.next;
 			}
-			current = current.next;
 		}
+		// printLinkedList();
 
 	}
 
@@ -152,16 +157,10 @@ public class LinkedList<T> {
 	// in the insertAtHead function above
 	public void insert(T addToFront) {
 		Node<T> previous = null;
-		Node<T> current = head;
-
-		while (current != null) {
-			if (previous == null) {
-				insertAtHead(addToFront);
-			} else {
-				previous = current;
-				current = current.next;
-			}
+		if (previous == null) {
+			insertAtHead(addToFront);
 		}
+		// printLinkedList();
 	}
 
 	// Assigned by Rader
@@ -173,11 +172,13 @@ public class LinkedList<T> {
 		while (current != null) {
 			if (current.compareTo(removeMe) == 0) {
 				current = current.next;
+				previous.next = current;
 			} else {
 				previous = current;
 				current = current.next;
 			}
 		}
+		// printLinkedList();
 	}
 
 	public boolean testListContents(T[] values) {

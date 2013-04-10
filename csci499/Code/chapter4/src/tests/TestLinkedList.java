@@ -43,24 +43,26 @@ public class TestLinkedList {
 		ll.append('c');
 		ll.append('d');
 		ll.insertAtHead('z');
-		assertTrue(ll.testListContents(new Character[] { 'z', 'a', 'b', 'c', 'd'}));
-		
+		assertTrue(ll.testListContents(new Character[] { 'z', 'a', 'b', 'c',
+				'd' }));
+
 		LinkedList<Integer> l2 = new LinkedList<Integer>();
 		l2.append(1);
 		l2.append(2);
 		l2.append(3);
 		l2.insertAtHead(4);
-		assertTrue(l2.testListContents(new Integer[] { 4, 1, 2, 3}));
-		
+		assertTrue(l2.testListContents(new Integer[] { 4, 1, 2, 3 }));
+
 		LinkedList<Character> l3 = new LinkedList<Character>();
 		l3.append('f');
 		l3.append('a');
 		l3.append('l');
 		l3.append('s');
 		l3.insertAtHead('e');
-		assertFalse(l3.testListContents(new Character[] { 'f', 'a', 'l', 's', 'e'}));
+		assertFalse(l3.testListContents(new Character[] { 'f', 'a', 'l', 's',
+				'e' }));
 	}
-	
+
 	@Test
 	public void testInsertAtTail() {
 		LinkedList<Character> ll = new LinkedList<Character>();
@@ -69,24 +71,26 @@ public class TestLinkedList {
 		ll.append('c');
 		ll.append('d');
 		ll.insertAtTail('z');
-		assertTrue(ll.testListContents(new Character[] { 'a', 'b', 'c', 'd', 'z'}));
-		
+		assertTrue(ll.testListContents(new Character[] { 'a', 'b', 'c', 'd',
+				'z' }));
+
 		LinkedList<Integer> l2 = new LinkedList<Integer>();
 		l2.append(1);
 		l2.append(2);
 		l2.append(3);
 		l2.insertAtTail(4);
-		assertTrue(l2.testListContents(new Integer[] { 1, 2, 3, 4}));
-		
+		assertTrue(l2.testListContents(new Integer[] { 1, 2, 3, 4 }));
+
 		LinkedList<Character> l3 = new LinkedList<Character>();
 		l3.append('f');
 		l3.append('a');
 		l3.append('l');
 		l3.append('s');
 		l3.insertAtTail('e');
-		assertFalse(l3.testListContents(new Character[] { 'e', 'f', 'a', 'l', 's'}));
+		assertFalse(l3.testListContents(new Character[] { 'e', 'f', 'a', 'l',
+				's' }));
 	}
-	
+
 	@Test
 	public void testCharacterAt() {
 		LinkedList<Character> ll = new LinkedList<Character>();
@@ -98,7 +102,7 @@ public class TestLinkedList {
 		assertTrue(ll.characterAt('y'));
 		assertFalse(ll.characterAt('a'));
 	}
-	
+
 	@Test
 	public void testAppend() {
 		LinkedList<Integer> ll = new LinkedList<Integer>();
@@ -106,7 +110,7 @@ public class TestLinkedList {
 		assertTrue(ll.characterAt(10));
 		assertFalse(ll.characterAt(15));
 	}
-	
+
 	@Test
 	public void testConcatenate() {
 		LinkedList<Character> ll = new LinkedList<Character>();
@@ -118,7 +122,7 @@ public class TestLinkedList {
 		ll.concatenate(l2);
 		assert (ll.testListContents(new Character[] { 'a', 'b', 'c', 'd' }));
 	}
-	
+
 	@Test
 	public void testRemoveChar() {
 		LinkedList<Integer> ll = new LinkedList<Integer>();
@@ -129,22 +133,24 @@ public class TestLinkedList {
 		ll.append(5);
 		ll.append(6);
 		ll.append(7);
-		ll.removeChar(ll, 2, 2);
-		assertTrue(ll.testListContents(new Integer[] { 1, 2, 5, 6, 7}));
+		ll.removeChar(2, 2);
+		assertTrue(ll.testListContents(new Integer[] { 1, 2, 5, 6, 7 }));
 	}
-	
-//	@Test
-//	public void testRemoveDuplicate() {
-//		LinkedList<Integer> ll = new LinkedList<Integer>();
-//		ll.append(1);
-//		ll.append(2);
-//		ll.append(3);
-//		ll.append(4);
-//		ll.append(2);
-//		ll.append(5);
-//		assertArrayEquals(ll.testListContents(new Integer[] { 1, 2, 3, 4, 5}), ll.removeDuplicate());
-//	}
-	
+
+	@Test
+	public void testRemoveDuplicate() {
+		LinkedList<Integer> ll = new LinkedList<Integer>();
+		ll.append(1);
+		ll.append(2);
+		ll.append(3);
+		ll.append(4);
+		ll.append(2);
+		ll.append(5);
+		ll.removeDuplicate();
+		assertTrue(ll.testListContents(new Integer[] { 1, 2, 3, 4, 5 }));
+		assertFalse(ll.testListContents(new Integer[] { 1, 2, 3, 4, 2, 5 }));
+	}
+
 	@Test
 	public void testInsert() {
 		LinkedList<Integer> ll = new LinkedList<Integer>();
@@ -152,9 +158,10 @@ public class TestLinkedList {
 		ll.append(2);
 		ll.append(3);
 		ll.insert(4);
+		assertTrue(ll.testListContents(new Integer[] { 4, 1, 2, 3}));
 		assertFalse(ll.testListContents(new Integer[] { 1, 2, 3}));
 	}
-	
+
 	@Test
 	public void testRemoveCharacter() {
 		LinkedList<Integer> ll = new LinkedList<Integer>();
@@ -162,8 +169,8 @@ public class TestLinkedList {
 		ll.append(2);
 		ll.append(3);
 		ll.removeCharacter(2);
-		assertTrue(ll.testListContents(new Integer[] { 1, 3}));
-		assertFalse(ll.testListContents(new Integer[] { 1, 2, 3}));
+		assertTrue(ll.testListContents(new Integer[] { 1, 3 }));
+		assertFalse(ll.testListContents(new Integer[] { 1, 2, 3 }));
 	}
 
 }
