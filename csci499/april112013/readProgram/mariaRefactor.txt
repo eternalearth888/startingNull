@@ -1,0 +1,32 @@
+Target.java:
+- Got "rid of" (commented out) unneeded variable
+- Changed the creation of the cake to a switch case for faster and cleaner code
+- Change if (hit == true) to if(hit) for simpler cleaner code
+
+Hint.java
+- Put all hints into a file in FinalProject
+- Made Hint.java read the file line by line for file
+- Also error checks, FileNotFoundException
+- Default hint is still blank, returnHint = ""; (else cod breaks)
+
+StoryPanel.java
+- Put story in text file
+- Read text file line by line and added to JTextArea story
+
+CalculationPanel.java
+- Put calculation in text file
+- Read text file line by line and added to JTextArea calculation
+
+RulePanel.java
+- Put rules in text file
+- Read text file line by line and added to JTextArea rules
+
+ButtonPanel.java
+- Created two new methods, hitTarget() and missTarget()
+	- allows for DRY code
+- Turned if-else statements into switch case to clean up and make simpler
+
+Text Files
+- decided to put all text files into a folder for better access
+
+

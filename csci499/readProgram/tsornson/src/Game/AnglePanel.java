@@ -23,7 +23,7 @@ public class AnglePanel extends JPanel{
 		JLabel powerText = new JLabel("Power: ");
 		angle = new JTextField(15);
 		power = new JTextField(15);
-		getAngle().setFont(new Font("SansSerif", Font.BOLD, 12));
+//		getAngle().setFont(new Font("SansSerif", Font.BOLD, 12));
 		add(angleText);
 		add(getAngle());
 		add(powerText);
