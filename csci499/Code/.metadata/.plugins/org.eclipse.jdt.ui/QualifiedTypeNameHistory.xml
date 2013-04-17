@@ -14,15 +14,16 @@
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 <fullyQualifiedTypeName name="tests.TestNode"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
-<fullyQualifiedTypeName name="org.junit.Before"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="main.Direction"/>
 <fullyQualifiedTypeName name="exercises.LLNode"/>
 <fullyQualifiedTypeName name="exercises.variableLength"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
-<fullyQualifiedTypeName name="exercises.Node"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="exercises.Node"/>
 <fullyQualifiedTypeName name="exercises.Exercises"/>
+<fullyQualifiedTypeName name="exercises.BinarySearchTrees"/>
 </qualifiedTypeNameHistroy>

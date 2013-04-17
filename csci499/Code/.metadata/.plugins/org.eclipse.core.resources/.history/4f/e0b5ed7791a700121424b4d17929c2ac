@@ -1,0 +1,6 @@
+package exercises;
+
+public class Node{
+	public int data;
+	
+}

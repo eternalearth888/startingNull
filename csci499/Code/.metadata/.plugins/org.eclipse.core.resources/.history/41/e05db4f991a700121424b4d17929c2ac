@@ -1,0 +1,19 @@
+package exercises;
+
+public class BinarySearchTrees {
+
+	public Node head;
+
+	public BinarySearchTrees() {
+		head = null;
+	}
+	
+	public boolean compareValues(Node root) {
+		isBST = false;
+		// Base Case
+		if (root == null) {
+			return 0;
+		}
+	}
+	
+}

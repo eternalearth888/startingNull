@@ -1,0 +1,21 @@
+package tests;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import exercises.Node;
+
+public class TestBinarySearchTrees {
+
+	@Before
+	public void initalizeBST() {
+		Node root = new Node(15); // root
+		
+	}
+	
+	@Test
+	public void testValidBST() {
+		
+	}
+	
+}

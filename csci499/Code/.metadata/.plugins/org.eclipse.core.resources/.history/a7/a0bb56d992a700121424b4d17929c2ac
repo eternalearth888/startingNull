@@ -1,0 +1,24 @@
+package exercises;
+
+public class BinarySearchTrees {
+
+	public Node head;
+
+	public BinarySearchTrees() {
+		head = null;
+	}
+	
+	public boolean compareValues(Node root) {
+		boolean isGreaterLeft = true;
+		boolean isLesserRight = true;
+		
+		// Base Case
+		if (root == null) {
+			return isBST; // a BST with no nodes is still a BST
+		} else if (root.left.data < root.data && root.right.data > root.data) {
+			return compareValues(root.left) && compareValues(root.right); // Checking subtrees
+		}
+		
+	}
+	
+}

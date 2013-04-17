@@ -1,0 +1,10 @@
+package tests;
+
+public class TestBinarySearchTrees {
+
+	@Test
+	public testValidBST() {
+		
+	}
+	
+}

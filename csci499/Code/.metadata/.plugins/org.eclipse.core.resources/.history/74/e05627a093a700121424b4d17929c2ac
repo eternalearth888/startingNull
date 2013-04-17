@@ -1,0 +1,12 @@
+package tests;
+
+import org.junit.Test;
+
+public class TestBinarySearchTrees {
+
+	@Test
+	public void testValidBST() {
+		
+	}
+	
+}

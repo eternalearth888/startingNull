@@ -1,0 +1,17 @@
+package tests;
+
+import org.junit.Test;
+
+public class TestBinarySearchTrees {
+
+	@Before
+	public void initalizeBST() {
+		
+	}
+	
+	@Test
+	public void testValidBST() {
+		
+	}
+	
+}

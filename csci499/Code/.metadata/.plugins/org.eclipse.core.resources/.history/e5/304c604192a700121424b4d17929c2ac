@@ -1,0 +1,23 @@
+package exercises;
+
+public class BinarySearchTrees {
+
+	public Node head;
+
+	public BinarySearchTrees() {
+		head = null;
+	}
+	
+	public boolean compareValues(Node root) {
+		boolean isBST = true; // assume that it is a BST to begin with
+		
+		// Base Case
+		if (root == null) {
+			return isBST; // a BST with no nodes is still a BST
+		}
+		
+		
+		return isBST;
+	}
+	
+}

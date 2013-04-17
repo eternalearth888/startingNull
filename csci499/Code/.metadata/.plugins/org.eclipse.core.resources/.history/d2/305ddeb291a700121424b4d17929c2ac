@@ -1,0 +1,8 @@
+package exercises;
+
+public class BinarySearchTrees {
+
+	public Node head;
+
+	
+}

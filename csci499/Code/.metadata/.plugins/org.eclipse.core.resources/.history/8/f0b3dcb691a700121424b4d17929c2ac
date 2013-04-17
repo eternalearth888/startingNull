@@ -1,0 +1,11 @@
+package exercises;
+
+public class BinarySearchTrees {
+
+	public Node head;
+
+	public BinarySearchTree() {
+		head = null;
+	}
+	
+}

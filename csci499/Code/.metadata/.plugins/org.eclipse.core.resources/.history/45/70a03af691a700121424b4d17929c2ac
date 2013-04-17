@@ -1,0 +1,18 @@
+package exercises;
+
+public class BinarySearchTrees {
+
+	public Node head;
+
+	public BinarySearchTrees() {
+		head = null;
+	}
+	
+	public void compareValues(Node root) {
+		// Base Case
+		if (root == null) {
+			return 0;
+		}
+	}
+	
+}

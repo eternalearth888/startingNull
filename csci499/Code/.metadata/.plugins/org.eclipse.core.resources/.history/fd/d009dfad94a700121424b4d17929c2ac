@@ -1,0 +1,44 @@
+package tests;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import exercises.Node;
+
+public class TestBinarySearchTrees {
+
+	// 15
+	// /\
+	// 10 20
+	// /\
+	// 5 13
+
+	@Before
+	public void initializeValidBST() {
+		Node root = new Node(15);
+		Node rootLeft = new Node(10);
+		Node rootRight = new Node(20);
+		Node leftLeft = new Node(5);
+		Node leftRight = new Node(13);
+
+		root.left = rootLeft;
+		root.right = rootRight;
+		rootLeft.left = leftLeft;
+		rootLeft.right = leftRight;
+	}
+
+	// 10
+	// /\
+	// 20 10
+	@Before
+	public void initializeInValidBST() {
+		Node root = new Node(10);
+		Node left 
+	}
+
+	@Test
+	public void testValidBST() {
+
+	}
+
+}

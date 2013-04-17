@@ -1,0 +1,22 @@
+package exercises;
+
+public class Node{
+	public int data;
+	public Node left;
+	public Node right;
+	
+	public Node(int newData) {
+		data = newData;
+		left = null;
+		right = null;
+	}
+	
+	public String printLeftNode() {
+		return " " + data + ",";
+	}
+	
+	public String printRightNode() {
+		return " " + data + ",";
+	}
+	
+}
