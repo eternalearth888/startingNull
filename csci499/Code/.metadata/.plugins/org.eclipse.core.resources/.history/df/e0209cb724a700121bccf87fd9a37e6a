@@ -1,0 +1,52 @@
+package exercises;
+
+import static org.junit.Assert.assertEquals;
+
+public class Exercises {
+
+	public static int ex6_1_iterative(int[] sumPos) {
+		int positiveSum = 0;
+
+		for (int i = 0; i < sumPos.length; i++) {
+			if (sumPos[i] >= 0) {
+				positiveSum += sumPos[i];
+			}
+		}
+		return positiveSum;
+	}
+
+	public static int ex6_1_recursive(int[] sumPos, int index) {
+		// Base Case
+		if (sumPos.length == index) {
+			return 0;
+		} else if (sumPos[index] >= 0) {
+			return sumPos[index] + ex6_1_recursive(sumPos, index + 1);
+		} else {
+			return ex6_1_recursive(sumPos, index + 1);
+		}
+
+	}
+
+	public static int ex6_3_iterative(int[] countTarget, int target) {
+		int count = 0;
+		for (int i = 0; i < countTarget.length; i++) {
+			if (countTarget[i] == target) {
+				count++;
+			}
+		}
+		return count;
+	}
+
+	public static int ex6_3_recursive(int[] countTarget, int target, int index) {
+		int count = 0;
+		//Base Case
+		if (countTarget.length == index) {
+			return 0;
+		} else if (countTarget[index] == target) {
+			count++
+			return ex6_3_recursive(countTarget, target, index + 1);
+		} else {
+			return ex6_3_recursive(countTarget, target, index + 1);
+		}
+	}
+}

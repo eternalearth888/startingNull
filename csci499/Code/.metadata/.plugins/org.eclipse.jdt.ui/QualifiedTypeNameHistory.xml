@@ -9,7 +9,6 @@
 <fullyQualifiedTypeName name="java.lang.Character"/>
 <fullyQualifiedTypeName name="main.ValidateUPC"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
-<fullyQualifiedTypeName name="exercises.Exercises"/>
 <fullyQualifiedTypeName name="org.junit.Assert"/>
 <fullyQualifiedTypeName name="tests.TestExercises"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
@@ -25,4 +24,5 @@
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="exercises.Node"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="exercises.Exercises"/>
 </qualifiedTypeNameHistroy>

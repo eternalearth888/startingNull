@@ -1,0 +1,25 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import exercises.Exercises;
+
+public class TestExercises {
+
+	@Test
+	public void testex6_1_iteration() {
+		int correct[] = {-1, 2, 0, 4, -6, 10};
+		String expectedC = "16";
+		assertTrue(expectedC, Exercises.ex6_1_iteration(correct));
+		int incorrect[] = {-3, 4, 5};
+		String expectedI = "5";
+		assertFalse(expectedI, Exercises.ex6_1_iteration(incorrect));
+		int nothing[] = {-10, -7, -8, 0, 0, -9};
+		int expectedN = 0;
+		assertTrue(expectedN, Exercises.ex6_1_iteration(nothing));
+		
+	}
+	
+}
