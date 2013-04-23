@@ -25,7 +25,7 @@ public class BinarySearchTrees {
 		if (root.right != null) {
 			rightValid = compareValues(root.right);
 		}
-		if ((root.left != null && root.left.data > root.data) || (root.right != null && root.right.data < root.data)) {
+		if ((root.left == null || root.left.data > root.data) || (root.right == null || root.right.data < root.data)) {
 			return false; // Since it is valid, check the subtrees
 		}
 		

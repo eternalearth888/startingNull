@@ -43,7 +43,8 @@ public class Exercises {
 		return oddParity;
 	}
 
-	public static boolean ex6_2_recursive(String[] findParity, int index, int ones) {
+	public static boolean ex6_2_recursive(String[] findParity, int index,
+			int ones) {
 		boolean oddParity = false;
 
 		if (findParity.length == index) {
@@ -58,14 +59,6 @@ public class Exercises {
 		}
 		return oddParity;
 	}
-	/*
-	 * if x == -0
-	 * 	return oddP
-	 * if (numOdd)
-	 * 	ex(index+1, !oddParity)
-	 * else
-	 * 	ex(index_1, oddParity)
-	 */
 
 	public static int ex6_3_iterative(int[] countTarget, int target) {
 		int count = 0;
@@ -78,10 +71,10 @@ public class Exercises {
 	}
 
 	public static int ex6_3_recursive(int[] countTarget, int target, int index) {
-		int count = 0; // have this start at a parameter that starts at 0
+		int count = 0;
 
 		if (countTarget.length == index) {
-			return count;
+			return 0;
 		} else if (countTarget[index] == target) {
 			count++;
 			return count + ex6_3_recursive(countTarget, target, index + 1);

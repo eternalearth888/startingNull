@@ -78,7 +78,7 @@ public class Exercises {
 	}
 
 	public static int ex6_3_recursive(int[] countTarget, int target, int index) {
-		int count = 0; // have this start at a parameter that starts at 0
+		int count = 0;
 
 		if (countTarget.length == index) {
 			return count;

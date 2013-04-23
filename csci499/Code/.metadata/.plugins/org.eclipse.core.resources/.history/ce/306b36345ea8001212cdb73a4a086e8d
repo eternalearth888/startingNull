@@ -17,7 +17,7 @@ public class Exercises {
 
 	public static int ex6_1_recursive(int[] sumPos, int index) {
 		if (sumPos.length == index) {
-			return 0;
+			return ex6_1_recursive(sumPos, index + 1);
 		} else if (sumPos[index] >= 0) {
 			return sumPos[index] + ex6_1_recursive(sumPos, index + 1);
 		} else {
