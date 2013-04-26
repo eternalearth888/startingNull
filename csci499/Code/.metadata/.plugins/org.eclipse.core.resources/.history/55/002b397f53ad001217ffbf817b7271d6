@@ -1,0 +1,68 @@
+package gui;
+
+import java.awt.FlowLayout;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.*;
+
+import game.Game;
+
+public class ControlPanel extends JPanel {
+	
+	private Game play;
+	
+	private JTextField numTargetsBox;
+	
+	private JButton playButton;
+	private JButton launchButton;
+	private JButton resetButton;
+	
+	private JSlider powerSlider;
+	private JSlider angleSlider;
+	
+	private JLabel numTargetsLabel;
+	private JLabel powerBox;
+	private JLabel angleBox;
+	private JLabel timerLabel;
+	
+	public ControlPanel(Game g) {
+		play = g;
+		
+		setLayout(new FlowLayout(FlowLayout.LEFT));
+		
+		//	Setup Panel
+		JPanel setupPanel = new JPanel();
+		setupPanel.setLayout(new GridBagLayout());
+		GridBagConstraints panel = new GridBagConstraints();
+		
+		//	Create Elements
+		numTargetsLabel = new JLabel("Number of Pokemon ");
+		numTargetsBox = new NumericTextField("5", 3);
+		playButton = new JButton("Play");
+		resetButton = new JButton("Reset");
+		
+		// Add Elements to Panel
+		panel.fill = GridBagConstraints.HORIZONTAL;
+		panel.gridx = 0;
+		panel.gridy = 0;
+	}
+	
+//	Timer timer = new Timer(1000, new TimerListener());
+//
+//	class TimerListener implements ActionListener {
+//		int elapsedSeconds = 60;
+//		
+//		public void actionPerformed(ActionEvent evt) {
+//			elapsedSeconds--;
+//			timerLabel.setText(elapsedSeconds);
+//			
+//			if (elapsedSeconds == 0) {
+//				timer.stop();
+//			}
+//			
+//		}
+//	}
+}

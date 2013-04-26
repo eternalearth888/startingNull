@@ -1,0 +1,13 @@
+package game;
+
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Image;
+
+public class Draw {
+	@Override
+	public void drawBackground(Graphics g,Image bkg) {
+		 Graphics2D g2 = (Graphics2D)g;
+		 g2.drawImage(bkg,0,0,null);
+	}
+}

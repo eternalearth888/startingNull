@@ -1,0 +1,33 @@
+package gui;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+import java.awt.Dimension;
+
+import javax.swing.*;
+
+public class InstructionPanel extends JFrame {
+
+	public InstructionPanel() {
+		setSize(new Dimenson(400,400));
+		setResizable(false);
+		setTitle("Instructions");
+		
+		JTextArea instructions = new JTextArea();
+		
+		Scanner read;
+		String addLine = "";
+		
+		try {
+			read = new Scanner(new File("textFiles/instructions"));
+			
+			while (read.hasNextLine()) {
+				addLine = addLine + read.nextLine() + "\n\n";
+			}
+			instructions.setText(addLine);
+		} catch (FileNotFoundException e) {
+			System.out.println("The instruction file can't be found or doesn't exist" + e);
+		}
+	}
+}

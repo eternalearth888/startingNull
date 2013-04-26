@@ -1,0 +1,45 @@
+package game;
+
+public class Pokeball {
+	private double xPos;
+	private double yPos;
+	private double xVel;
+	private double yVel;
+	
+	public Image pokeball;
+	
+	public Pokeball(double xPos, double yPos, double xVel, double yVel) {
+		this.xPos = xPos;
+		this.yPos = yPos;
+		this.xVel = Math.round(xVel);
+		this.yVel = Math.round(yVel);
+		this.pokeball = new ImageIcon("other/pokeball.png").getImage();
+	}
+	public double calcSpeed() {
+		return Math.sqrt(xVel*xVel + yVel*yVel);
+	}
+	public double getxPos() {
+		return xPos;
+	}
+	public double getyPos() {
+		return yPos;
+	}
+	public double getxVel() {
+		return xVel;
+	}
+	public double getyVel() {
+		return yVel;
+	}
+	public void draw(Graphics g) {
+		g.setColor(Color.BLACK);
+		g.fillOval((int)xPos - SIZE/2, (int)yPos - SIZE/2, SIZE, SIZE);
+	}
+	
+	// delta time is the inverse frame rate, used to keep motion smooth on machines where frame rates will be different
+	public void move(double deltaTime){
+		xPos = xPos + xVel*deltaTime;
+		yPos = yPos + yVel*deltaTime;
+		yVel = yVel - 10*deltaTime;
+	}
+
+}

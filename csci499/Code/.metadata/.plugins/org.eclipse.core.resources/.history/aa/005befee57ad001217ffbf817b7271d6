@@ -1,0 +1,6 @@
+package game;
+
+public class Pokeball extends Structure {
+	private int thrownBalls;
+	private PokeBall ball;
+}

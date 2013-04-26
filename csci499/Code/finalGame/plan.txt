@@ -1,0 +1,18 @@
+Catch as many Pokemon as you can within 1:00 minute.
+Generation I Pokemon only.
+Using a combination of code from last semester's final projects.
+Maybe have a splash page?
+Be able to randomize pokemon from the 151 original Pokemon.
+Have user choose how many Pokemon they want on the screen.
+If they get all the Pokemon before the time is up, show a splash screen for "Pokemon Elite".
+If they get a certain number of Pokemon within the time limit, show splash screen for "On your way"
+Else "Keep Trying, you just started after all"
+
+Have a slider for power.
+Have a slider for angle.
+Play button begins timer.
+Reset button.
+Practice mode?
+
+Credits for images:
+Bulbapedia

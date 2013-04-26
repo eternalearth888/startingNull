@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="305" key="DIALOG_WIDTH"/>
-		<item value="151" key="DIALOG_Y_ORIGIN"/>
-		<item value="957" key="DIALOG_X_ORIGIN"/>
+		<item value="156" key="DIALOG_Y_ORIGIN"/>
+		<item value="-263" key="DIALOG_X_ORIGIN"/>
 		<item value="421" key="DIALOG_HEIGHT"/>
 		<item value="1|Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
@@ -12,17 +12,17 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
-		<item value="true" key="wholeword"/>
-		<item value="addRules" key="selection"/>
+		<item value="false" key="wholeword"/>
+		<item value="makeTarget" key="selection"/>
 		<list key="findhistory">
-			<item value="addCalc"/>
-			<item value="readCalc"/>
-			<item value="story"/>
-			<item value="calculation"/>
-			<item value="+"/>
-			<item value="&quot;"/>
-			<item value="\n"/>
-			<item value="addStory"/>
+			<item value="makeTarget"/>
+			<item value="inside"/>
+			<item value="insode"/>
+			<item value="check"/>
+			<item value="dTime"/>
+			<item value="TARGET_SIZE"/>
+			<item value="add"/>
+			<item value="TARGET"/>
 		</list>
 		<list key="replacehistory">
 			<item value="addRules"/>

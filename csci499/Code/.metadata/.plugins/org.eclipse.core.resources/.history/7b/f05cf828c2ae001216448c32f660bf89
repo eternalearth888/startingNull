@@ -1,0 +1,12 @@
+package game;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class GameGUI extends JFrame {
+	
+	public GameGUI() {
+		
+	}
+	
+}

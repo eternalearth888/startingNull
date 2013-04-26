@@ -1,0 +1,23 @@
+package game;
+
+import javax.swing.*;
+import java.awt.*;
+import javax.swing.border.*;
+
+public class ControlGUI extends JPanel {
+	private Game play;
+
+	private JLabel targetLabel = new JLabel();
+	
+	public ControlGUI(Game play) {
+		this.play = play;
+		
+		setLayout(new FlowLayout(FlowLayout.LEFT));
+		
+		// Setup Panel
+		JPanel setupPanel = new JPanel();
+		setupPanel.setLayout(new GridBagLayout());
+		GridBagConstraints grid = new GridBagConstraints();
+		
+	}
+}

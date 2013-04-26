@@ -575,3 +575,39 @@ Command-line arguments:  -os linux -ws gtk -arch x86
 
 !ENTRY org.eclipse.ui 4 4 2013-04-11 13:40:34.240
 !MESSAGE Unable to find Action Set: com.objectaid.uml.addon.cls
+!SESSION 2013-04-24 17:41:21.711 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2013-04-24 17:41:30.879
+!MESSAGE Unable to find Action Set: com.objectaid.uml.addon.cls
+!SESSION 2013-04-25 11:21:40.599 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2013-04-25 11:21:48.907
+!MESSAGE Unable to find Action Set: com.objectaid.uml.addon.cls
+!SESSION 2013-04-25 17:14:21.488 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2013-04-25 17:14:28.974
+!MESSAGE Unable to find Action Set: com.objectaid.uml.addon.cls
+!SESSION 2013-04-26 16:33:26.518 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2013-04-26 16:33:35.730
+!MESSAGE Unable to find Action Set: com.objectaid.uml.addon.cls

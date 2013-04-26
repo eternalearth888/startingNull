@@ -1,0 +1,10 @@
+package game;
+
+import javax.swing.*;
+
+public class Background extends JPanel{
+	// Background Image Stuff
+	
+	
+
+}

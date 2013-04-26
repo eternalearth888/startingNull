@@ -1,0 +1,9 @@
+package game;
+
+public class Draw {
+	@Override
+	public void draw(Graphics g,String name) {
+		 Graphics2D g2 = (Graphics2D)g;
+		 g2.drawImage(name, 0, 0, null);
+	}
+}

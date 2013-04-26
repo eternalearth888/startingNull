@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;exercises.BinarySearchTrees.compareValues(...)&apos; to &apos;isBST&apos;&#x0A;- Original project: &apos;chapter6&apos;&#x0A;- Original element: &apos;exercises.BinarySearchTrees.compareValues(...)&apos;&#x0A;- Renamed element: &apos;exercises.BinarySearchTrees.isBST(...)&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;compareValues&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;exercises{BinarySearchTrees.java[BinarySearchTrees~compareValues~QNode;" name="isBST" references="true" stamp="1366828503541" version="1.0"/>
+</session>

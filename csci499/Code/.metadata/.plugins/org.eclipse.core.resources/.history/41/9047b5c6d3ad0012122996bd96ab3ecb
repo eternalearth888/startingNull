@@ -1,0 +1,24 @@
+package game;
+
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Image;
+
+import javax.swing.*;
+
+public class Background extends JPanel{
+	Draw draw = new Draw();
+	// Background Image Stuff
+	private Image background;
+	
+	
+	public Background() {
+		this.background = new ImageIcon("images/background.jpg").getImage();
+	}
+	
+	public void drawBackground(Graphics g) {
+		 Graphics2D g2 = (Graphics2D)g;
+		 g2.drawImage(background,0,0,null);
+	}
+
+}

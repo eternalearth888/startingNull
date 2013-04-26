@@ -1,0 +1,20 @@
+package game;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class GameGUI extends JFrame {
+	
+	public GameGUI() {
+		setSize(new Dimension(800, 600));
+		setTitle("Master in a Minute!");
+		setLocationRelativeTo(null);
+		setLayout(new GridBagLayout());
+		
+		BackgroundPanel bkgPanel = new BackgroundPanel(ourGame);
+		Border borderTurn = BorderFactory.createEtchedBorder();
+		sPanel.setBorder(borderTurn);
+		add(sPanel, BorderLayout.CENTER);
+	}
+	
+}

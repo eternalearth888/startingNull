@@ -1,0 +1,9 @@
+package game;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class Background extends JPanel {
+	public ImageIcon background;
+}

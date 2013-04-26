@@ -1,0 +1,16 @@
+package game;
+
+import java.net.URL;
+
+import javax.swing.*;
+
+public class Background extends JPanel{
+	// Background Image Stuff
+	private Image background;
+	
+	
+	public Background() {
+		URL url = getClass().getResource("images/background.jpg");
+	}
+
+}

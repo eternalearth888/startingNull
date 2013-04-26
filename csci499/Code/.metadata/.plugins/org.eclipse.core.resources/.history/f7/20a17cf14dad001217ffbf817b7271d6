@@ -1,0 +1,71 @@
+package gui;
+
+import game.Game;
+
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.*;
+import javax.swing.border.Border;
+
+public class GameGUI extends JFrame {
+	private Game playGame = new Game();
+
+	public GameGUI() {
+		setSize(new Dimension(800, 400));
+		setResizable(false);
+		setTitle("Master in a Minute!");
+
+		ScreenPanel sPanel = new ScreenPanel(playGame);
+		Border borderTurn = BorderFactory.createEtchedBorder();
+		sPanel.setBorder(borderTurn);
+		
+		ControlPanel cPanel = new ControlPanel(playGame);
+		add(cPanel, BorderLayout.SOUTH);
+		
+		JMenuBar menuBar = new JMenuBar();
+		setJMenuBar(menuBar);
+		menuBar.add(createFileMenu());
+
+	}
+
+	private JMenu createFileMenu() {
+		JMenu menu = new JMenu("File");
+		menu.add(createInstructions());
+		menu.add(createFileExitItem());
+		return menu;
+	}
+
+	private JMenuItem createInstructions() {
+		JMenuItem item = new JMenuItem("Instructions");
+
+		class MenuItemListener implements ActionListener {
+			public void actionPerformed(ActionEvent e) {
+				InstructionPanel ipanel = new InstructionPanel();
+				ipanel.setVisible(true);
+			}
+		}
+		item.addActionListener(new MenuItemListener());
+		return item;
+	}
+
+	private JMenuItem createFileExitItem() {
+		JMenuItem item = new JMenuItem("Exit");
+
+		class MenuItemListener implements ActionListener {
+			public void actionPerformed(ActionEvent e) {
+				System.exit(0);
+			}
+		}
+		item.addActionListener(new MenuItemListener());
+		return item;
+	}
+
+	public static void main(String[] args) {
+		GameGUI run = new GameGUI();
+		run.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		run.setVisible(true);
+	}
+}
