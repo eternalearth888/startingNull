@@ -1,0 +1,11 @@
+package game;
+
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+
+public class Draw {
+	public void drawImage(Graphics g,String name) {
+		 Graphics2D g2 = (Graphics2D)g;
+		 g2.draw
+	}
+}

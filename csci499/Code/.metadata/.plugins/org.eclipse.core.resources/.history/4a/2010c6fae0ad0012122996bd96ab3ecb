@@ -1,0 +1,9 @@
+package game;
+
+public class Pokemon implements Comparable<Pokemon> {
+
+	private int location;
+	private int height;
+	private boolean hit;
+
+}

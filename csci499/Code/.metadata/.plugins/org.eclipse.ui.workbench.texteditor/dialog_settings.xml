@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="305" key="DIALOG_WIDTH"/>
+		<item value="166" key="DIALOG_Y_ORIGIN"/>
+		<item value="621" key="DIALOG_X_ORIGIN"/>
+		<item value="421" key="DIALOG_HEIGHT"/>
+		<item value="1|Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wholeword"/>
+		<item value="Trainer" key="selection"/>
+		<list key="findhistory">
+			<item value="Launcher"/>
+			<item value="target"/>
+			<item value="Target"/>
+			<item value="scenery"/>
+			<item value="Scenery"/>
+			<item value="launcher"/>
+			<item value="world"/>
+			<item value="Projectile"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Trainer"/>
+			<item value="pokemon"/>
+			<item value="Pokemon"/>
+			<item value="background"/>
+			<item value="Background"/>
+			<item value="trainer"/>
+			<item value="g"/>
+			<item value="Pokeball"/>
+		</list>
+	</section>
+</section>

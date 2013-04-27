@@ -1,0 +1,9 @@
+package game;
+
+public class Pokeball {
+	private double angle;
+	private 
+	
+	public Image ball;
+	
+}

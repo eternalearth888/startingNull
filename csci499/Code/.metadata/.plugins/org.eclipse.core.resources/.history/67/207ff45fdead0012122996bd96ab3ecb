@@ -1,0 +1,43 @@
+package game;
+
+import javax.swing.*;
+import java.awt.*;
+import javax.swing.border.*;
+
+public class ControlGUI extends JPanel {
+	private Game play;
+
+	private JLabel numTargetsLabel;
+	private JTextField numTargetsBox;
+	private JButton genTargetsButton;
+	
+	public ControlGUI(Game play) {
+		this.play = play;
+		
+		setLayout(new FlowLayout(FlowLayout.LEFT));
+		
+		// Setup Panel
+		JPanel setupPanel = new JPanel();
+		setupPanel.setLayout(new GridBagLayout());
+		GridBagConstraints grid = new GridBagConstraints();
+		
+		// Create Elements
+		numTargetsLabel = new JLabel("Number of Pokemon ");
+		numTargetsBox = new JTextField("5",3);
+		genTargetsButton = new JButton("Generate Targets ");
+		
+		// Add Elements to Panel
+		grid.fill = GridBagConstraints.HORIZONTAL;
+		grid.gridx = 0;
+		grid.gridy = 0;
+		setupPanel.add(numTargetsLabel, grid);
+		grid.gridx = 1;
+		setupPanel.add(numTargetsBox, grid);
+		grid.insets = new Insets(10,0,0,0);
+		grid.gridx = 0;
+		grid.gridy = 1;
+		grid.gridwidth = 2;
+		grid.ipady = 20;
+		setupPanel.add(genTargetsButton, grid);
+	}
+}

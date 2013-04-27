@@ -1,0 +1,29 @@
+package gui;
+
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+
+import javax.swing.JPanel;
+
+import game.Background;
+import game.Game;
+
+
+public class ScreenPanel extends JPanel {
+	public Background background;
+	
+	public ScreenPanel(Game playGame) {
+		background = playGame.getBackground();
+	}
+	
+	public void paintComponent(Graphics g) {
+		super.paintComponent(g);
+		Graphics2D g2 = (Graphics2D) g;
+		
+		//call draw functions
+		background.draw(g2);
+		repaint();	
+	}
+
+}

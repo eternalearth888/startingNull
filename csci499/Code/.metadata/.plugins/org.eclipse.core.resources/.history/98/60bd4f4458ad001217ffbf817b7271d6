@@ -1,0 +1,13 @@
+package game;
+
+public class Pokeball {
+	private double xPos;
+	private double yPos;
+	private double xVel;
+	private double yVel;
+	
+	public Image pokeball;
+	
+	
+	
+}

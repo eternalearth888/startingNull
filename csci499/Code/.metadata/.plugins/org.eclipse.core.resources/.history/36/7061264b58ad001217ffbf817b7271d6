@@ -1,0 +1,23 @@
+package game;
+
+public class Pokeball {
+	private double xPos;
+	private double yPos;
+	private double xVel;
+	private double yVel;
+	
+	public Image pokeball;
+	
+	public Pokeball(double xPos, double yPos, double xVel, double yVel) {
+		this.xPos = xPos;
+		this.yPos = yPos;
+		this.xVel = Math.round(xVel);
+		this.yVel = Math.round(yVel);
+		/*System.out.println("Creating new projectile:");
+		System.out.println("   P_x: " + xPos);
+		System.out.println("   P_y: " + yPos);
+		System.out.println("   V_x: " + xVel);
+		System.out.println("   V_y: " + yVel);*/
+	}
+	
+}

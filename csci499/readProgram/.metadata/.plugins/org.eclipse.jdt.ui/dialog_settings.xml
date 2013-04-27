@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="filter_imports;" key="filters_last_used"/>
+	<section name="OptionalMessageDialog.hide.">
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item value="true" key="group_libraries"/>
+		<item value="false" key="linkWithEditor"/>
+		<item value="2" key="layout"/>
+		<item value="1" key="rootMode"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1364835673245&quot;&gt;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0A;&lt;xmlDefinedFilters&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0A;&lt;/customFilters&gt;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="3" key="pageIndex"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="400" key="height"/>
+		<item value="600" key="width"/>
+	</section>
+	<section name="JavaSearchPage">
+		<item value="false" key="CASE_SENSITIVE"/>
+		<item value="15" key="INCLUDE_MASK"/>
+		<item value="7" key="HISTORY_SIZE"/>
+		<section name="HISTORY2">
+			<item value="15" key="includeMask"/>
+			<item value="3" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="setHint" key="pattern"/>
+			<item value="" key="javaElement"/>
+			<item value="1" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="false" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY3">
+			<item value="15" key="includeMask"/>
+			<item value="3" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="ourGame" key="pattern"/>
+			<item value="" key="javaElement"/>
+			<item value="1" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="false" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY0">
+			<item value="15" key="includeMask"/>
+			<item value="3" key="limitTo"/>
+			<item value="1" key="scope"/>
+			<item value="paintComponent" key="pattern"/>
+			<item value="" key="javaElement"/>
+			<item value="1" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="false" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY1">
+			<item value="15" key="includeMask"/>
+			<item value="3" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="magic" key="pattern"/>
+			<item value="" key="javaElement"/>
+			<item value="1" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="false" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY5">
+			<item value="15" key="includeMask"/>
+			<item value="3" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="font2" key="pattern"/>
+			<item value="" key="javaElement"/>
+			<item value="0" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="false" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY4">
+			<item value="15" key="includeMask"/>
+			<item value="3" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="font" key="pattern"/>
+			<item value="" key="javaElement"/>
+			<item value="0" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="false" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY6">
+			<item value="15" key="includeMask"/>
+			<item value="3" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="setFont" key="pattern"/>
+			<item value="" key="javaElement"/>
+			<item value="1" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="false" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
+		<item value="false" key="GoIntoTopLevelTypeAction.isChecked"/>
+		<item value="true" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="406" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_WIDTH"/>
+		<item value="430" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_HEIGHT"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="39" key="DIALOG_Y_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="386" key="DIALOG_X_ORIGIN"/>
+			<item value="1|Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+	<section name="javadoc">
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="false" key="notree"/>
+		<item value="true" key="splitindex"/>
+		<item value="/usr/lib/jvm/java-7-openjdk-i386/bin/javadoc" key="javadoc_command_history"/>
+		<item value="true" key="use"/>
+		<item value="false" key="nonavbar"/>
+		<item value="public" key="access"/>
+		<item value="true" key="version"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="/home/earth/Documents/school/spring2013/startingNull/csci499/readProgram/finalProject306/FinalProject/refactorDoc" key="destdir"/>
+		<item value="true" key="author"/>
+		<item value="" key="docletname"/>
+		<item value="1.7" key="source"/>
+		<item value="Refactor by Maria Deslis" key="doctitle"/>
+		<item value="true" key="openinbrowser"/>
+		<item value="false" key="noindex"/>
+		<item value="" key="docletpath"/>
+		<item value="/home/earth/Documents/school/spring2013/startingNull/csci499/readProgram/finalProject306/FinalProject/javadoc.xml" key="antpath"/>
+		<item value="true" key="fromStandard"/>
+		<section name="projects">
+			<section name="lwalen">
+				<item value="/home/earth/Documents/school/spring2013/startingNull/csci499/readProgram/lwalen/doc" key="destdir"/>
+				<item value="" key="href"/>
+				<item value="/home/earth/Documents/school/spring2013/startingNull/csci499/readProgram/lwalen/javadoc.xml" key="antpath"/>
+			</section>
+			<section name="FinalProject">
+				<item value="/home/earth/Documents/school/spring2013/startingNull/csci499/readProgram/finalProject306/FinalProject/refactorDoc" key="destdir"/>
+				<item value="" key="href"/>
+				<item value="/home/earth/Documents/school/spring2013/startingNull/csci499/readProgram/finalProject306/FinalProject/javadoc.xml" key="antpath"/>
+			</section>
+			<section name="miwughes">
+				<item value="/home/earth/Documents/school/spring2013/startingNull/csci499/readProgram/miwughes/doc" key="destdir"/>
+				<item value="" key="href"/>
+				<item value="/home/earth/Documents/school/spring2013/startingNull/csci499/readProgram/miwughes/javadoc.xml" key="antpath"/>
+			</section>
+			<section name="tsornson">
+				<item value="/home/earth/Documents/school/spring2013/startingNull/csci499/readProgram/tsornson/doc" key="destdir"/>
+				<item value="" key="href"/>
+				<item value="/home/earth/Documents/school/spring2013/startingNull/csci499/readProgram/tsornson/javadoc.xml" key="antpath"/>
+			</section>
+			<section name="okostiva">
+				<item value="/home/earth/Documents/school/spring2013/startingNull/csci499/readProgram/okostiva/doc" key="destdir"/>
+				<item value="" key="href"/>
+				<item value="/home/earth/Documents/school/spring2013/startingNull/csci499/readProgram/okostiva/javadoc.xml" key="antpath"/>
+			</section>
+		</section>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item value="606" key="DIALOG_WIDTH"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="383" key="DIALOG_X_ORIGIN"/>
+		<item value="656" key="DIALOG_HEIGHT"/>
+		<item value="1|Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+</section>

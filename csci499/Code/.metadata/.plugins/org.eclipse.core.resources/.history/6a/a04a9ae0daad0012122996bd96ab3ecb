@@ -1,0 +1,18 @@
+package game;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class Background extends JPanel {
+	 public Image background;
+		
+	 public Scenery() {
+		 this.background = new ImageIcon("pictures/cloudsdale.png").getImage();
+	 }
+	 
+	public void draw(Graphics g) {
+		 Graphics2D g2 = (Graphics2D)g;
+		 g2.drawImage(background, 0, 0, null);
+	}
+}

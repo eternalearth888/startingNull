@@ -1,0 +1,17 @@
+package game;
+
+public class MainScreen {
+	public Background background;
+	
+	public MainScreen(Game play) {
+		background = play.getBackground();
+	}
+	
+	public void paintComponent(Graphics g) {
+		super.paintComponent(g)
+		Graphics2D g2 = (Graphics2d) g;
+		
+		background.draw(g2);
+		repaint();
+	}
+}

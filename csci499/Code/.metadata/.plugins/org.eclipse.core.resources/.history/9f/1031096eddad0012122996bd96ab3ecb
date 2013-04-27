@@ -1,0 +1,24 @@
+package game;
+
+import javax.swing.*;
+import java.awt.*;
+import javax.swing.border.*;
+
+public class ControlGUI extends JPanel {
+	private Game play;
+
+	private JLabel targetLabel = new JLabel();
+	
+	public ControlGUI(Game play) {
+		this.play = play;
+		
+		setLayout(new FlowLayout(FlowLayout.LEFT));
+		Border borderTurn = BorderFactory.createEtchedBorder();
+		
+		// Display Targets box
+		targetLabel.setBorder(borderTurn);
+		targetLabel.setText("Target Box");
+		add(targetLabel);
+		
+	}
+}
