@@ -1,5 +1,0 @@
-package game;
-
-public class Pokemon implements Comparable<Pokemon> {
-
-}

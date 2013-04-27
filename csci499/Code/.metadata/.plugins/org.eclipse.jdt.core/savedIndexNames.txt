@@ -1,9 +1,0 @@
-INDEX VERSION 1.126+/home/earth/Documents/school/spring2013/startingNull/csci499/Code/.metadata/.plugins/org.eclipse.jdt.core
-3437015383.index
-412726466.index
-1539261232.index
-2043085588.index
-3859595601.index
-3215832664.index
-536113371.index
-4059697655.index

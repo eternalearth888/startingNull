@@ -1,6 +1,0 @@
-package game;
-
-public class Trainer extends Structure {
-	private int thrownBalls;
-	private PokeBall ball;
-}

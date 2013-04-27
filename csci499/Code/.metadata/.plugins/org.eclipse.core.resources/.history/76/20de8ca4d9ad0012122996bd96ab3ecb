@@ -1,9 +1,0 @@
-package game;
-
-public class Background extends JFrame {
-	private ImageIcon background;
-	
-	public Background() {
-		setLayou
-	}
-}

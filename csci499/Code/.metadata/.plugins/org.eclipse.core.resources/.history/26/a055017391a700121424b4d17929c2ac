@@ -1,6 +1,0 @@
-package exercises;
-
-public class Node<T> implements Comparable<T> {
-	public T data;
-	
-}
