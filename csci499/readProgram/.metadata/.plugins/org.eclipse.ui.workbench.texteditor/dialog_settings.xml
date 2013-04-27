@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="305" key="DIALOG_WIDTH"/>
-		<item value="156" key="DIALOG_Y_ORIGIN"/>
-		<item value="-263" key="DIALOG_X_ORIGIN"/>
-		<item value="421" key="DIALOG_HEIGHT"/>
+		<item value="311" key="DIALOG_WIDTH"/>
+		<item value="102" key="DIALOG_Y_ORIGIN"/>
+		<item value="423" key="DIALOG_HEIGHT"/>
+		<item value="832" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="makeTarget" key="selection"/>
+		<item value="repaint" key="selection"/>
 		<list key="findhistory">
-			<item value="makeTarget"/>
-			<item value="inside"/>
-			<item value="insode"/>
-			<item value="check"/>
-			<item value="dTime"/>
-			<item value="TARGET_SIZE"/>
-			<item value="add"/>
 			<item value="TARGET"/>
+			<item value="repaint"/>
+			<item value="clear"/>
+			<item value="getPlayer"/>
+			<item value="getLauncher"/>
+			<item value="generateTargets"/>
+			<item value="setupPanel"/>
+			<item value="800"/>
 		</list>
 		<list key="replacehistory">
 			<item value="addRules"/>
