@@ -1,0 +1,54 @@
+Things I learned:
+1. Problem Solving Skills
+	- Hand tracing
+		- Possibly one of the greatest skills I have acquired this semester
+	- Using old code
+		- Not in the sense of just repeating myself but also in the sense that I can work off of it to create something better.
+	- Divide and Conquer
+		- Make a list of all constraints stated in the assignment
+		- Make a list of all stated possibilities in the assignment, if any
+		- Break down the problem from the big picture into smaller parts
+		- Hand trace each small part individually, so as to ensure that you are understanding:
+			- What the computer is thinking
+			- What I wanted the computer to think
+			- That the code was doing what I wanted it to do
+	- Not jumping in immediatley
+		- Step away from the computer and think about it using pen and paper
+2. How to make DRY code
+3. How to refactor code
+4. Arrays
+	- Best example of how I learned to hand trace
+	-  Where I really began to learn and understnand how a computer thinks
+5. Pointers, Linked Lists, Dynamic Memory
+	- Refining skills on hand tracing
+	- Learning about encapsulation
+		- Putting multiple pieces of data together into a single package
+6. Understand how a computer works better
+7. That my biggest problem wasn't that I don't understand what is going on, it's that I lack confidence in my ability
+8. How to ask a proper question when stuck
+	- Before this class, it used to be that if could not progress any further in my code, I would simply tell others that I was "stuck" or "didn't know what do". Obviously this didn't help me or anyone else for that matter. No one knew what I wanted help with and I was too frustrated to make sense of what I was stuck on.
+	Although I have not gotten it to a point where I can explain things completely clear, I have improved. Instead of just saying "Help, I don't know what to do. What am I missing?" I take the time to read through my code first and think about what I wanted the "broken code" to originally do. Then I try to find out what it is actually doing. If I am still not sure as to why I am getting results that are different from what I want, then I am at least able to tell people "This is where I am stuck. This is what I was trying to do, but I got this instead. I have pinpointed the problem to here." etc, etc. Oddly enough, by doing the above process, I have often been able to figure out what it is I am doing wrong and have ended up solving it myself. In a sense, I have not only figured out how to ask others for help, but also how to seek help from myself.
+9. How I have taken what I have learned and applied them to other classes
+	- Compliments from other professors, they see significant improvement in my code
+	- Examples:
+		- Algorithms:
+			The first major example occured this semester in Algorithms, when we had our first Project. Both individual and group. I was really terrified because I had already convinced myself that I didn't have the skills needed to do even remotely well. As a result, just the mention of an upcoming project would scare me in the beginning of the semester and I would keep putting it off because I didn't want to deal with it. But I convinced myself that if I was going to get any better, I had to start and that it wasn't going to help if it wasn't at least attempted. So I sat down away from the computer and pulled out my whiteboard and markers and proceeded to do the following steps:
+				1. Make a list of all constraints stated in the assignment
+				2. Make a list of hints and encouraged things to do stated in the assignment
+				3. Break the down the problem from the big picutre into smaller parts
+				4. Hand trace each small part individually, so as to ensure that I was understanding:
+					- What the computer was thinking
+					- What I wanted the computer to think
+					- How the algorithm works, on multiple levels
+			As a result I not only ended up finishing the assignment in record time, but I completely understood what was happening AND I got an A. Never in my wildest dreams did I think I was capable of this - not for a long time. And here it was happening. That's when I began to ask myself, 
+				"What else am I capable of? Was I really able to do this the whole time and just didn't know? Can I apply this to other things?"
+			Before I knew it, I was applying these same steps to nearly every single coding project and class I have had this semester. 
+			In principles of programming, when I was stuck on creating the NIM game, I was able to talk my friends and I through the project by breaking each part of the game into small pieces. Even though I didn't get the code quite right, I knew that I was doing well because not only did I understand what was happening in the assignment but because I was able to help my friends understand what was going on as well. 
+			Another good example was in my Databases class, where we often had to do projects in languages we were just learning or had never been familiar with at all. However, that class also showed us how to make visual representations of what we wanted our database to look like. This reminded me of hand tracing, and once I was able to understand how to make a model that anyone could read and understand, then making bigger and more complex databases wasn't an issue, because I had just created a visual representation of what I wanted to happen. 
+10. "The competent programmer is fully aware of the limited size of his own skull. He therefore approaches his task with full humility, and avoids clever tricks like the plague." - Edward Dijkstra
+11. How to test your code
+	- Must think of multiple possibilities
+		- Truly an art form
+	- Not just that it is right, but that it is wrong, blank, or reverse of what you want it be
+		- THINK OUTSIDE THE BOX
+	- Shows presence of bugs, but NOT the absence of them - Dijkstra
