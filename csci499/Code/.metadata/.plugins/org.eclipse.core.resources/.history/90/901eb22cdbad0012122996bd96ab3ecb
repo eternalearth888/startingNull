@@ -1,9 +1,0 @@
-package game;
-
-public class MainScreen {
-	public Background background;
-	
-	public MainScreen(Game play) {
-		background = play.getBackground();
-	}
-}

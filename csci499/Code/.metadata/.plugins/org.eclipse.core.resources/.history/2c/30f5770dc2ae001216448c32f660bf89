@@ -1,8 +1,0 @@
-package game;
-
-imports javax.swing.*;
-imports java.awt.*l
-
-public class GameGUI {
-
-}
